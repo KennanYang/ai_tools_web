@@ -1,0 +1,3076 @@
+[
+  {
+    "category": "AI内容检测",
+    "name": "StudyCorgi推出的帮助学生检测ChatGPT的工具",
+    "desc": "StudyCorgi为学生提供的ChatGPT内容检测工具。",
+    "tags": [
+      "内容检测",
+      "学生",
+      "ChatGPT"
+    ],
+    "url": "https://studycorgi.com/free-writing-tools/chat-gpt-detector/"
+  },
+  {
+    "category": "AI内容检测",
+    "name": "在线检测文本是否由GPT-3或ChatGPT生成",
+    "desc": "检测文本是否由GPT-3或ChatGPT生成的工具。",
+    "tags": [
+      "内容检测",
+      "GPT",
+      "ChatGPT"
+    ],
+    "url": "https://x.writefull.com/gpt-detector"
+  },
+  {
+    "category": "AI内容检测",
+    "name": "Writecream推出的AI内容检测工具",
+    "desc": "Writecream平台的AI内容检测服务。",
+    "tags": [
+      "内容检测",
+      "写作",
+      "AI"
+    ],
+    "url": "https://www.writecream.com/"
+  },
+  {
+    "category": "AI内容检测",
+    "name": "Winston AI内容检测解决方案",
+    "desc": "AI内容原创度检测与分析平台。",
+    "tags": [
+      "内容检测",
+      "原创度",
+      "AI"
+    ],
+    "url": "https://gowinston.ai/"
+  },
+  {
+    "category": "AI内容检测",
+    "name": "免费在线检测内容-CheckforAI",
+    "desc": "免费在线检测文本是否为AI生成。",
+    "tags": [
+      "内容检测",
+      "AI识别",
+      "免费"
+    ],
+    "url": "https://checkforai.com/"
+  },
+  {
+    "category": "AI内容检测",
+    "name": "CopyLeaks内容检测和分级",
+    "desc": "支持多语言的AI内容检测与分级工具。",
+    "tags": [
+      "内容检测",
+      "多语言"
+    ],
+    "url": "https://copyleaks.com/"
+  },
+  {
+    "category": "AI内容检测",
+    "name": "AISEO AI内容检测器",
+    "desc": "AISEO推出的AI内容检测与SEO优化工具。",
+    "tags": [
+      "内容检测",
+      "SEO"
+    ],
+    "url": "https://aiseo.ai/AI-tools/ai-content-detection.html"
+  },
+  {
+    "category": "AI内容检测",
+    "name": "Writer AI内容检测工具",
+    "desc": "Writer平台推出的AI内容检测服务。",
+    "tags": [
+      "内容检测",
+      "写作"
+    ],
+    "url": "https://writer.com/ai-content-detector/"
+  },
+  {
+    "category": "AI内容检测",
+    "name": "GPTZero",
+    "desc": "免费AI内容检测工具，支持多种文本。",
+    "tags": [
+      "内容检测",
+      "免费"
+    ],
+    "url": "https://gptzero.me/"
+  },
+  {
+    "category": "AI内容检测",
+    "name": "Sapling AI内容检测",
+    "desc": "国外免费AI内容检测工具，支持多平台。",
+    "tags": [
+      "内容检测",
+      "免费"
+    ],
+    "url": "https://sapling.ai/"
+  },
+  {
+    "category": "AI内容检测",
+    "name": "Check GPT-3/ChatGPT生成检测",
+    "desc": "检测文本是否由GPT-3或ChatGPT生成。",
+    "tags": [
+      "内容检测",
+      "GPT"
+    ],
+    "url": "https://x.writefull.com/gpt-detector"
+  },
+  {
+    "category": "AI对话聊天",
+    "name": "豆包",
+    "desc": "字节跳动最新推出的免费AI对话助手。",
+    "tags": [
+      "对话",
+      "AI助手",
+      "免费"
+    ],
+    "url": "https://www.doubao.com/"
+  },
+  {
+    "category": "AI对话聊天",
+    "name": "Forefront",
+    "desc": "免费版基于GPT-4的AI聊天机器人。",
+    "tags": [
+      "对话",
+      "AI助手",
+      "GPT4"
+    ],
+    "url": "https://www.forefront.ai/"
+  },
+  {
+    "category": "AI对话聊天",
+    "name": "HuggingChat",
+    "desc": "HuggingFace推出的在线聊天机器人，基于Open Assistant模型。",
+    "tags": [
+      "对话",
+      "开源",
+      "HuggingFace"
+    ],
+    "url": "https://huggingface.co/chat/"
+  },
+  {
+    "category": "AI对话聊天",
+    "name": "钉钉个人版",
+    "desc": "内置AI智能助手，可进行AI创作、对话、绘画。",
+    "tags": [
+      "对话",
+      "AI助手",
+      "钉钉"
+    ],
+    "url": "https://workspace.dingtalk.com/welcome?utm_source=ai-bot.cn"
+  },
+  {
+    "category": "AI对话聊天",
+    "name": "Claude",
+    "desc": "ChatGPT强力竞争对手，支持Slack和Poe等多平台。",
+    "tags": [
+      "对话",
+      "AI助手",
+      "Anthropic"
+    ],
+    "url": "https://www.anthropic.com/index/claude-2"
+  },
+  {
+    "category": "AI对话聊天",
+    "name": "TigerBot",
+    "desc": "虎博科技推出的AI对话机器人，基于TigerBot开源大模型。",
+    "tags": [
+      "对话",
+      "AI助手",
+      "开源"
+    ],
+    "url": "https://tigerbot.com/"
+  },
+  {
+    "category": "AI对话聊天",
+    "name": "Colossal",
+    "desc": "开源版ChatGPT聊天机器人替代品。",
+    "tags": [
+      "对话",
+      "开源",
+      "ChatGPT"
+    ],
+    "url": "https://chat.colossalai.org/"
+  },
+  {
+    "category": "AI对话聊天",
+    "name": "ChatGPT:OpenAI旗下的AI对话工具",
+    "desc": "OpenAI官方AI对话工具，支持多场景应用。",
+    "tags": [
+      "对话",
+      "OpenAI",
+      "ChatGPT"
+    ],
+    "url": "https://openai.com/"
+  },
+  {
+    "category": "AI对话聊天",
+    "name": "智谱清言",
+    "desc": "智谱AI推出的生成式AI助手，基于ChatGLM 2。",
+    "tags": [
+      "对话",
+      "AI助手",
+      "智谱AI"
+    ],
+    "url": "https://chatglm.cn/"
+  },
+  {
+    "category": "AI对话聊天",
+    "name": "讯飞星火认知大模型",
+    "desc": "科大讯飞推出的类ChatGPT的大模型。",
+    "tags": [
+      "对话",
+      "大模型",
+      "讯飞"
+    ],
+    "url": "https://xinghuo.xfyun.cn/"
+  },
+  {
+    "category": "AI对话聊天",
+    "name": "百度AI伙伴",
+    "desc": "百度最新上线的AI搜索对话工具。",
+    "tags": [
+      "对话",
+      "AI助手",
+      "百度"
+    ],
+    "url": "https://chat.baidu.com/"
+  },
+  {
+    "category": "AI对话聊天",
+    "name": "Bing新必应",
+    "desc": "微软推出的AI增强搜索引擎。",
+    "tags": [
+      "对话",
+      "搜索",
+      "微软"
+    ],
+    "url": "https://cn.bing.com/"
+  },
+  {
+    "category": "AI对话聊天",
+    "name": "天工",
+    "desc": "昆仑万维与奇点智源联合研发的对标ChatGPT的大语言模型。",
+    "tags": [
+      "对话",
+      "大模型",
+      "国产"
+    ],
+    "url": "https://tiangong.kunlun.com/"
+  },
+  {
+    "category": "AI对话聊天",
+    "name": "商量",
+    "desc": "商汤科技推出的类ChatGPT的大语言模型。",
+    "tags": [
+      "对话",
+      "大模型",
+      "商汤"
+    ],
+    "url": "https://chat.sensetime.com/wb/login"
+  },
+  {
+    "category": "AI对话聊天",
+    "name": "Jasper Chat",
+    "desc": "Jasper针对内容创作者出品的AI聊天工具。",
+    "tags": [
+      "对话",
+      "内容创作",
+      "Jasper"
+    ],
+    "url": "https://www.jasper.ai/chat"
+  },
+  {
+    "category": "AI对话聊天",
+    "name": "Neeva",
+    "desc": "集成了AI问答的AI搜索引擎。",
+    "tags": [
+      "对话",
+      "搜索",
+      "AI问答"
+    ],
+    "url": "https://neeva.com/"
+  },
+  {
+    "category": "AI对话聊天",
+    "name": "whispir",
+    "desc": "免费AI对话回应平台。",
+    "tags": [
+      "对话",
+      "免费",
+      "平台"
+    ],
+    "url": "https://www.whispir.com/en-us/"
+  },
+  {
+    "category": "AI对话聊天",
+    "name": "文心一言",
+    "desc": "百度推出的生成式AI对话产品。",
+    "tags": [
+      "对话",
+      "百度",
+      "生成式AI"
+    ],
+    "url": "https://yiyan.baidu.com/"
+  },
+  {
+    "category": "AI对话聊天",
+    "name": "通义千问",
+    "desc": "阿里巴巴最新推出的类ChatGPT响应人类指令的大模型。",
+    "tags": [
+      "对话",
+      "大模型",
+      "阿里巴巴"
+    ],
+    "url": "https://tongyi.aliyun.com/"
+  },
+  {
+    "category": "AI对话聊天",
+    "name": "面壁智能",
+    "desc": "新一代大语言模型，能与用户互动对话，助力信息获取与创作。",
+    "tags": [
+      "对话",
+      "大模型",
+      "智能"
+    ],
+    "url": "https://luca-beta.modelbest.cn/"
+  },
+  {
+    "category": "AI对话聊天",
+    "name": "百川大模型",
+    "desc": "百川智能推出的大模型助手，融合意图理解、信息检索等技术。",
+    "tags": [
+      "对话",
+      "大模型",
+      "百川"
+    ],
+    "url": "https://www.baichuan-ai.com/home"
+  },
+  {
+    "category": "AI对话聊天",
+    "name": "Open Assistant",
+    "desc": "免费开源的对话式AI，GitHub星标超3万。",
+    "tags": [
+      "对话",
+      "开源",
+      "AI"
+    ],
+    "url": "https://github.com/LAION-AI/Open-Assistant"
+  },
+  {
+    "category": "AI对话聊天",
+    "name": "ChatSonic",
+    "desc": "WriteSonic出品的ChatGPT竞品。",
+    "tags": [
+      "对话",
+      "ChatGPT",
+      "WriteSonic"
+    ],
+    "url": "https://writesonic.com/chat"
+  },
+  {
+    "category": "AI对话聊天",
+    "name": "Character.AI",
+    "desc": "创建虚拟角色并与其对话。",
+    "tags": [
+      "对话",
+      "虚拟角色",
+      "AI"
+    ],
+    "url": "https://mashable.com/article/character-ai-generator-explained"
+  },
+  {
+    "category": "AI对话聊天",
+    "name": "Inworld AI",
+    "desc": "开发和创建AI虚拟角色并与其互动。",
+    "tags": [
+      "对话",
+      "虚拟角色",
+      "互动"
+    ],
+    "url": "https://www.inworld.ai/"
+  },
+  {
+    "category": "AI对话聊天",
+    "name": "Replika",
+    "desc": "AI对话陪伴工具。",
+    "tags": [
+      "对话",
+      "陪伴",
+      "AI"
+    ],
+    "url": "https://replika.ai/"
+  },
+  {
+    "category": "AI对话聊天",
+    "name": "魔搭GPT（ModelScopeGPT）",
+    "desc": "阿里达摩院推出的大/小模型协同的智能助手，具备多模态能力。",
+    "tags": [
+      "对话",
+      "多模态",
+      "阿里"
+    ],
+    "url": "https://www.modelscope.cn/studios/damo/ModelScopeGPT/summary"
+  },
+  {
+    "category": "AI对话聊天",
+    "name": "360智脑",
+    "desc": "360搜索最新推出的AI对话聊天机器人。",
+    "tags": [
+      "对话",
+      "AI助手",
+      "360"
+    ],
+    "url": "https://ai.360.cn/"
+  },
+  {
+    "category": "AI语音翻译",
+    "name": "阿里云听悟",
+    "desc": "阿里云推出的语音识别与实时翻译平台。",
+    "tags": [
+      "语音识别",
+      "翻译",
+      "阿里云"
+    ],
+    "url": "https://tingwu.aliyun.com/"
+  },
+  {
+    "category": "AI语音翻译",
+    "name": "Google翻译",
+    "desc": "谷歌官方多语言翻译平台。",
+    "tags": [
+      "翻译",
+      "多语言",
+      "谷歌"
+    ],
+    "url": "https://translate.google.com/"
+  },
+  {
+    "category": "AI语音翻译",
+    "name": "百度翻译",
+    "desc": "百度推出的多功能翻译平台。",
+    "tags": [
+      "翻译",
+      "多语言",
+      "百度"
+    ],
+    "url": "https://fanyi.baidu.com/"
+  },
+  {
+    "category": "AI语音翻译",
+    "name": "搜狗翻译",
+    "desc": "搜狗推出的文本翻译工具。",
+    "tags": [
+      "翻译",
+      "文本",
+      "搜狗"
+    ],
+    "url": "https://fanyi.sogou.com/text"
+  },
+  {
+    "category": "AI语音翻译",
+    "name": "网易有道AI翻译",
+    "desc": "网易推出的AI智能翻译平台，支持音频、文档等。",
+    "tags": [
+      "翻译",
+      "音频",
+      "网易"
+    ],
+    "url": "https://sight.youdao.com/"
+  },
+  {
+    "category": "AI图片物体抹除",
+    "name": "智能移除图片中的物体、文本、污迹、人物或任何不想要的东西",
+    "desc": "AI智能移除图片中不需要的内容，操作简单。",
+    "tags": [
+      "图片处理",
+      "抹除",
+      "智能"
+    ],
+    "url": "https://cleanup.pictures/"
+  },
+  {
+    "category": "AI图片物体抹除",
+    "name": "图片物体抹除和清理",
+    "desc": "AI一键抹除图片中的物体和杂质。",
+    "tags": [
+      "图片处理",
+      "抹除",
+      "清理"
+    ],
+    "url": "https://bgeraser.com/"
+  },
+  {
+    "category": "AI图片物体抹除",
+    "name": "在几秒钟内删除不需要的东西",
+    "desc": "MagicEraser，AI快速删除图片不需要的元素。",
+    "tags": [
+      "图片处理",
+      "抹除",
+      "快速"
+    ],
+    "url": "https://magicstudio.com/zh/magiceraser/"
+  },
+  {
+    "category": "AI图片物体抹除",
+    "name": "snapedit：移除图片的任何物体",
+    "desc": "SnapEdit，AI移除图片中任意物体。",
+    "tags": [
+      "图片处理",
+      "抹除",
+      "物体"
+    ],
+    "url": "https://snapedit.app/"
+  },
+  {
+    "category": "AI图片物体抹除",
+    "name": "hama在线抹除图片中不想要的物体",
+    "desc": "Hama，AI在线抹除图片中不需要的物体。",
+    "tags": [
+      "图片处理",
+      "抹除",
+      "在线"
+    ],
+    "url": "https://www.hama.app/zh"
+  },
+  {
+    "category": "AI图片物体抹除",
+    "name": "从图像中 去水印免费",
+    "desc": "WatermarkRemover，免费在线去除图片水印。",
+    "tags": [
+      "图片处理",
+      "去水印",
+      "免费"
+    ],
+    "url": "https://www.watermarkremover.io/zh"
+  },
+  {
+    "category": "AI图片无损放大",
+    "name": "AI在线免费放大图片工具",
+    "desc": "LetsEnhance，AI在线免费无损放大图片。",
+    "tags": [
+      "图片放大",
+      "无损",
+      "AI"
+    ],
+    "url": "https://letsenhance.io/"
+  },
+  {
+    "category": "AI图片无损放大",
+    "name": "vanceai推出的在线图片尺寸调整工具",
+    "desc": "VanceAI，支持图片尺寸智能调整与放大。",
+    "tags": [
+      "图片放大",
+      "尺寸调整",
+      "AI"
+    ],
+    "url": "https://vanceai.com/image-resizer/"
+  },
+  {
+    "category": "AI图片无损放大",
+    "name": "zyro AI图片放大工具",
+    "desc": "Zyro，AI图片无损放大工具。",
+    "tags": [
+      "图片放大",
+      "无损",
+      "AI"
+    ],
+    "url": "https://zyro.com/tools/image-upscaler"
+  },
+  {
+    "category": "AI图片无损放大",
+    "name": "upscalepics在线图片放大工具",
+    "desc": "UpscalePics，AI在线图片放大与增强。",
+    "tags": [
+      "图片放大",
+      "增强",
+      "AI"
+    ],
+    "url": "https://upscalepics.com/"
+  },
+  {
+    "category": "AI图片无损放大",
+    "name": "photoaid出品的免费在线图片放大工具",
+    "desc": "PhotoAid，免费AI图片放大工具。",
+    "tags": [
+      "图片放大",
+      "免费",
+      "AI"
+    ],
+    "url": "https://photoaid.com/en/tools/ai-image-enlarger"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "AI代码检查",
+    "desc": "AI自动化代码检查与审查工具。",
+    "tags": [
+      "编程",
+      "代码检查",
+      "AI"
+    ],
+    "url": "https://ai-code-reviewer.com/"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "AI SQL语句生成和修改",
+    "desc": "AI自动生成和修改SQL语句。",
+    "tags": [
+      "编程",
+      "SQL",
+      "AI"
+    ],
+    "url": "https://www.airops.com/"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "API开发工具",
+    "desc": "AI辅助API开发与测试工具。",
+    "tags": [
+      "编程",
+      "API",
+      "开发"
+    ],
+    "url": "https://httpie.io/ai"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "科大讯飞推出的智能编程助手",
+    "desc": "科大讯飞官方智能编程助手。",
+    "tags": [
+      "编程",
+      "助手",
+      "讯飞"
+    ],
+    "url": "https://iflycode.xfyun.cn/"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "AI Debug调试助手",
+    "desc": "AI辅助代码调试与问题定位。",
+    "tags": [
+      "编程",
+      "调试",
+      "AI"
+    ],
+    "url": "https://jam.dev/jamgpt"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "亚马逊发布的AI编程助手",
+    "desc": "亚马逊官方AI编程助手。",
+    "tags": [
+      "编程",
+      "助手",
+      "亚马逊"
+    ],
+    "url": "https://aws.amazon.com/cn/codewhisperer/"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "命令行工具（内置AI终端命令自动补全）",
+    "desc": "内置AI命令补全的终端工具。",
+    "tags": [
+      "编程",
+      "命令行",
+      "自动补全"
+    ],
+    "url": "https://fig.io/"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "AI将设计搞生成React代码，支持JavaScript和TypeScript",
+    "desc": "AI将设计稿自动生成React代码。",
+    "tags": [
+      "编程",
+      "前端",
+      "AI"
+    ],
+    "url": "https://www.quest.ai/"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "AI代码生成和补全",
+    "desc": "AI自动生成和补全代码。",
+    "tags": [
+      "编程",
+      "代码生成",
+      "补全"
+    ],
+    "url": "https://codeium.com/"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "AI无代码工具将Figma/Adobe XD和Sketch设计转换成前端代码",
+    "desc": "AI将设计稿一键转为前端代码。",
+    "tags": [
+      "编程",
+      "无代码",
+      "前端"
+    ],
+    "url": "https://www.locofy.ai/"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "AI代码自动补全编程助手",
+    "desc": "AI智能代码补全与开发助手。",
+    "tags": [
+      "编程",
+      "补全",
+      "AI"
+    ],
+    "url": "https://www.tabnine.com/"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "Visual Studio AI辅助开发",
+    "desc": "微软官方AI辅助开发环境，集成多种智能功能。",
+    "tags": [
+      "编程",
+      "AI",
+      "微软"
+    ],
+    "url": "https://visualstudio.microsoft.com/"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "阿里推出的免费设计搞智能生成前端代码",
+    "desc": "阿里推出的免费AI设计稿转前端代码工具。",
+    "tags": [
+      "编程",
+      "前端",
+      "阿里"
+    ],
+    "url": "https://www.imgcook.com/"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "国内开发的免费AI编程助手",
+    "desc": "国内团队开发的免费AI编程助手平台。",
+    "tags": [
+      "编程",
+      "AI",
+      "国产"
+    ],
+    "url": "https://codegeex.cn"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "自然语言到代码的方法级代码生成，以及多行智能代码补全",
+    "desc": "支持自然语言转代码及多行智能补全。",
+    "tags": [
+      "编程",
+      "AI",
+      "代码生成"
+    ],
+    "url": "https://www.aixcoder.com/#/"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "Codiga：AI代码实时分析",
+    "desc": "AI驱动的代码实时分析与质量检测工具。",
+    "tags": [
+      "编程",
+      "AI",
+      "分析"
+    ],
+    "url": "https://www.codiga.io/"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "百度推出的AI编程助手",
+    "desc": "百度官方推出的AI编程助手平台。",
+    "tags": [
+      "编程",
+      "AI",
+      "百度"
+    ],
+    "url": "https://comate.baidu.com/"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "AI无代码软件开发",
+    "desc": "AI驱动的无代码软件开发平台。",
+    "tags": [
+      "编程",
+      "无代码",
+      "AI"
+    ],
+    "url": "https://www.marsx.dev/"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "华为云推出的智能编程助手",
+    "desc": "华为云官方智能编程助手，提升开发效率。",
+    "tags": [
+      "编程",
+      "AI",
+      "华为"
+    ],
+    "url": "https://www.huaweicloud.com/lab/paas/codeartssnap.html"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "CodeSandbox推出的AI编程助手",
+    "desc": "CodeSandbox平台AI编程助手，支持多语言。",
+    "tags": [
+      "编程",
+      "AI",
+      "CodeSandbox"
+    ],
+    "url": "https://codesandbox.io/"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "微软推出的将手绘草图转换成HTML代码工具",
+    "desc": "微软推出的AI手绘草图转HTML代码工具。",
+    "tags": [
+      "编程",
+      "AI",
+      "微软"
+    ],
+    "url": "https://sketch2code.azurewebsites.net/"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "你的个人编程助手",
+    "desc": "AI驱动的个人编程助手，支持多语言开发。",
+    "tags": [
+      "编程",
+      "AI",
+      "助手"
+    ],
+    "url": "https://www.askcodi.com/"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "mutable：人工智能加速软件开发",
+    "desc": "AI加速软件开发，提升开发效率。",
+    "tags": [
+      "编程",
+      "AI",
+      "加速"
+    ],
+    "url": "https://mutable.ai/"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "低代码快速开发网页应用",
+    "desc": "AI辅助低代码快速开发网页应用。",
+    "tags": [
+      "编程",
+      "低代码",
+      "AI"
+    ],
+    "url": "https://debuild.app/"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "Cursor:AI编程和软件开发",
+    "desc": "AI驱动的编程与软件开发平台。",
+    "tags": [
+      "编程",
+      "AI",
+      "开发"
+    ],
+    "url": "https://www.cursor.so/"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "京东推出的设计稿一键生成多端代码工具",
+    "desc": "京东推出的AI设计稿多端代码生成工具。",
+    "tags": [
+      "编程",
+      "AI",
+      "京东"
+    ],
+    "url": "https://ling-deco.jd.com/"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "自然语言转义为CLI命令",
+    "desc": "AI将自然语言转为CLI命令，提升效率。",
+    "tags": [
+      "编程",
+      "AI",
+      "命令行"
+    ],
+    "url": "https://www.heycli.com/"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "无代码AI智能在线快速创建网站",
+    "desc": "AI驱动的无代码网站快速创建平台。",
+    "tags": [
+      "编程",
+      "无代码",
+      "网站"
+    ],
+    "url": "https://hocoos.com/"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "sourcegraph推出的免费AI编程工具",
+    "desc": "sourcegraph平台推出的免费AI编程工具。",
+    "tags": [
+      "编程",
+      "AI",
+      "sourcegraph"
+    ],
+    "url": "https://about.sourcegraph.com/"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "AI代码测试工具",
+    "desc": "AI辅助代码测试与质量检测工具。",
+    "tags": [
+      "编程",
+      "AI",
+      "测试"
+    ],
+    "url": "https://www.codium.ai/"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "AI代码生成、补全、分析、重构和调试",
+    "desc": "集成多功能的AI代码生成与分析平台。",
+    "tags": [
+      "编程",
+      "AI",
+      "代码生成"
+    ],
+    "url": "https://codesnippets.ai/"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "终端工具（内置AI命令搜素）",
+    "desc": "内置AI命令搜索的终端工具，提升开发效率。",
+    "tags": [
+      "编程",
+      "AI",
+      "终端"
+    ],
+    "url": "https://www.warp.dev/"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "天工智码：AI智能编程助手",
+    "desc": "天工智码AI智能编程助手，支持多场景开发。",
+    "tags": [
+      "编程",
+      "AI",
+      "天工"
+    ],
+    "url": "https://sky-code.singularity-ai.com/"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "知名在线编程IDE Replit推出的AI编程助手",
+    "desc": "Replit平台推出的AI编程助手Ghostwriter。",
+    "tags": [
+      "编程",
+      "AI",
+      "Replit"
+    ],
+    "url": "https://replit.com/site/ghostwriter"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "AI智能将图片转换成HTML和CSS代码",
+    "desc": "AI将图片智能转换为HTML和CSS代码。",
+    "tags": [
+      "编程",
+      "AI",
+      "前端"
+    ],
+    "url": "https://fronty.com/"
+  },
+  {
+    "category": "AI编程工具",
+    "name": "黑箱AI编程助理，快速代码生成",
+    "desc": "黑箱AI编程助理，支持快速代码生成。",
+    "tags": [
+      "编程",
+      "AI",
+      "代码生成"
+    ],
+    "url": "https://www.useblackbox.io/"
+  },
+  {
+    "category": "AI智能写作工具",
+    "name": "全能型AI内容和文案创作助手",
+    "desc": "支持多场景内容生成与文案创作的AI助手。",
+    "tags": [
+      "写作",
+      "内容生成",
+      "AI"
+    ],
+    "url": "https://ai.kezhan365.com/"
+  },
+  {
+    "category": "AI智能写作工具",
+    "name": "国外AI研究文章和博客写作辅助工具",
+    "desc": "专为学术与博客写作设计的AI辅助工具。",
+    "tags": [
+      "写作",
+      "学术",
+      "AI"
+    ],
+    "url": "https://jenni.ai/"
+  },
+  {
+    "category": "AI智能写作工具",
+    "name": "AI智能写作工具",
+    "desc": "多功能AI写作平台，支持多场景内容创作。",
+    "tags": [
+      "写作",
+      "AI",
+      "内容生成"
+    ],
+    "url": "https://x.moyin.com/?ref=ai-bot.cn"
+  },
+  {
+    "category": "AI智能写作工具",
+    "name": "国内的智能AI写作工具",
+    "desc": "国内领先的AI写作平台，适合多种文本生成需求。",
+    "tags": [
+      "写作",
+      "AI",
+      "国产"
+    ],
+    "url": "https://www.heyfriday.cn/home"
+  },
+  {
+    "category": "AI智能写作工具",
+    "name": "DEEPL推出的英语和德语AI写作助手",
+    "desc": "支持英语和德语写作润色与生成的AI助手。",
+    "tags": [
+      "写作",
+      "语言",
+      "AI"
+    ],
+    "url": "https://www.deepl.com/write"
+  },
+  {
+    "category": "AI智能写作工具",
+    "name": "AI内容改写、纠错、润色辅助工具",
+    "desc": "提供内容改写、纠错和润色的AI写作辅助平台。",
+    "tags": [
+      "写作",
+      "润色",
+      "AI"
+    ],
+    "url": "https://www.aigaixie.com/"
+  },
+  {
+    "category": "AI智能写作工具",
+    "name": "AI创意内容创作助手",
+    "desc": "专注于创意内容生成的AI写作助手，提升创作效率。",
+    "tags": [
+      "创意",
+      "写作",
+      "AI"
+    ],
+    "url": "https://www.typeface.ai/"
+  },
+  {
+    "category": "AI智能写作工具",
+    "name": "AI写作机器人",
+    "desc": "智能AI写作机器人，支持多种文本自动生成。",
+    "tags": [
+      "写作",
+      "机器人",
+      "AI"
+    ],
+    "url": "https://www.giiso.com/"
+  },
+  {
+    "category": "AI智能写作工具",
+    "name": "AI写作助理，市场营销、职场办公、新媒体、创意写作等类型的智能内容创作",
+    "desc": "多场景智能写作助理，适合营销、办公等多领域。",
+    "tags": [
+      "写作",
+      "助理",
+      "AI"
+    ],
+    "url": "https://wen.mobvoi.com/"
+  },
+  {
+    "category": "AI智能写作工具",
+    "name": "AI英语语法和拼写检查写作助手",
+    "desc": "专业的英语语法和拼写检查AI写作工具。",
+    "tags": [
+      "语法",
+      "拼写",
+      "AI"
+    ],
+    "url": "https://www.grammarly.com/"
+  },
+  {
+    "category": "AI智能写作工具",
+    "name": "国外的AI写作，文案工具",
+    "desc": "国际知名AI写作与文案生成平台，支持多语言。",
+    "tags": [
+      "写作",
+      "文案",
+      "AI"
+    ],
+    "url": "https://writesonic.com/"
+  },
+  {
+    "category": "AI智能写作工具",
+    "name": "新媒体AI内容创作助手",
+    "desc": "专为新媒体内容创作设计的AI助手，提升效率。",
+    "tags": [
+      "新媒体",
+      "内容创作",
+      "AI"
+    ],
+    "url": "https://www.yizhuan5.com/"
+  },
+  {
+    "category": "AI智能写作工具",
+    "name": "火山写作",
+    "desc": "智能AI写作平台，支持多场景文本自动生成。",
+    "tags": [
+      "写作",
+      "AI",
+      "自动生成"
+    ],
+    "url": "https://writingo.net/"
+  },
+  {
+    "category": "AI智能写作工具",
+    "name": "笔灵写作AI",
+    "desc": "高效的AI写作工具，助力内容创作与润色。",
+    "tags": [
+      "写作",
+      "AI",
+      "润色"
+    ],
+    "url": "https://ibiling.cn/"
+  },
+  {
+    "category": "AI智能写作工具",
+    "name": "爱创作，AI写作工具",
+    "desc": "便捷高效的AI写作平台，适合多场景内容创作。",
+    "tags": [
+      "写作",
+      "AI",
+      "内容创作"
+    ],
+    "url": "https://ai.zaker.cn/"
+  },
+  {
+    "category": "AI智能写作工具",
+    "name": "国外的AI内容创作助手",
+    "desc": "国际化AI内容创作平台，支持多种写作需求。",
+    "tags": [
+      "内容创作",
+      "AI",
+      "国际"
+    ],
+    "url": "https://www.gomoonbeam.com/"
+  },
+  {
+    "category": "AI智能写作工具",
+    "name": "国外的AI内容生成和写作助手",
+    "desc": "高效的AI内容生成与写作工具，适合多领域。",
+    "tags": [
+      "内容生成",
+      "写作",
+      "AI"
+    ],
+    "url": "https://rytr.me/"
+  },
+  {
+    "category": "AI智能写作工具",
+    "name": "讯飞推出的智能写作工具",
+    "desc": "科大讯飞推出的智能写作平台，支持多场景文本生成。",
+    "tags": [
+      "写作",
+      "AI",
+      "讯飞"
+    ],
+    "url": "https://zj.xfyun.cn/exam/text"
+  },
+  {
+    "category": "AI智能写作工具",
+    "name": "火龙果AI写作工具",
+    "desc": "多平台支持的AI写作工具，提升内容创作效率。",
+    "tags": [
+      "写作",
+      "AI",
+      "多平台"
+    ],
+    "url": "https://www.mypitaya.com/"
+  },
+  {
+    "category": "AI智能写作工具",
+    "name": "有道写作，智能英文写作和润色工具",
+    "desc": "有道出品的智能英文写作与润色辅助工具。",
+    "tags": [
+      "写作",
+      "英文",
+      "润色"
+    ],
+    "url": "https://write.youdao.com/#/homepage"
+  },
+  {
+    "category": "AI智能写作工具",
+    "name": "国外的AI写作，阅读总结",
+    "desc": "集成AI写作与阅读总结功能的国外平台。",
+    "tags": [
+      "写作",
+      "总结",
+      "AI"
+    ],
+    "url": "https://bearly.ai/"
+  },
+  {
+    "category": "AI智能写作工具",
+    "name": "腾讯开发的智能创作助手",
+    "desc": "腾讯推出的智能创作助手，支持多场景文本生成。",
+    "tags": [
+      "写作",
+      "AI",
+      "腾讯"
+    ],
+    "url": "https://effidit.qq.com/"
+  },
+  {
+    "category": "AI智能写作工具",
+    "name": "大名鼎鼎的Notion推出的AI内容创作助手",
+    "desc": "Notion官方AI内容创作助手，集成于知名笔记平台。",
+    "tags": [
+      "写作",
+      "AI",
+      "Notion"
+    ],
+    "url": "https://www.notion.so/product/ai"
+  },
+  {
+    "category": "AI智能写作工具",
+    "name": "全方位AI文档生成工具",
+    "desc": "支持多平台的AI文档自动生成工具，提升办公效率。",
+    "tags": [
+      "文档生成",
+      "AI",
+      "办公"
+    ],
+    "url": "https://vgoapp.com/"
+  },
+  {
+    "category": "AI幻灯片PPT",
+    "name": "AI智能PPT生成器",
+    "desc": "",
+    "tags": [
+      "PPT",
+      "AI",
+      "生成"
+    ],
+    "url": "https://www.chatba.com/"
+  },
+  {
+    "category": "AI幻灯片PPT",
+    "name": "AI创建PPT",
+    "desc": "",
+    "tags": [
+      "PPT",
+      "AI",
+      "生成"
+    ],
+    "url": "https://powerpresent.ai/"
+  },
+  {
+    "category": "AI幻灯片PPT",
+    "name": "PowerPoint AI插件，可以自动辅助生成PPT文案内容",
+    "desc": "",
+    "tags": [
+      "PPT",
+      "AI",
+      "生成"
+    ],
+    "url": "https://www.auxi.ai/"
+  },
+  {
+    "category": "AI幻灯片PPT",
+    "name": "美图AI ppt",
+    "desc": "",
+    "tags": [
+      "PPT",
+      "AI",
+      "生成"
+    ],
+    "url": "https://www.x-design.com/ppt/?from=home"
+  },
+  {
+    "category": "AI幻灯片PPT",
+    "name": "AI 快速创建PPT",
+    "desc": "",
+    "tags": [
+      "PPT",
+      "AI",
+      "生成"
+    ],
+    "url": "https://www.slidesai.io/zh"
+  },
+  {
+    "category": "AI幻灯片PPT",
+    "name": "AI创作叙事性PPT",
+    "desc": "",
+    "tags": [
+      "PPT",
+      "AI",
+      "生成"
+    ],
+    "url": "https://tome.app/"
+  },
+  {
+    "category": "AI幻灯片PPT",
+    "name": "国外的AI驱动，在线PPT生成器",
+    "desc": "",
+    "tags": [
+      "PPT",
+      "AI",
+      "生成"
+    ],
+    "url": "https://www.decktopus.com/"
+  },
+  {
+    "category": "AI幻灯片PPT",
+    "name": "国外的基于ChatGPT的PPT生成",
+    "desc": "",
+    "tags": [
+      "PPT",
+      "AI",
+      "生成"
+    ],
+    "url": "https://www.presentations.ai/"
+  },
+  {
+    "category": "AI幻灯片PPT",
+    "name": "AI智能ppt生成工具",
+    "desc": "",
+    "tags": [
+      "PPT",
+      "AI",
+      "生成"
+    ],
+    "url": "https://gamma.app/"
+  },
+  {
+    "category": "AI幻灯片PPT",
+    "name": "爱设计PPT，AI一键生成PPT",
+    "desc": "",
+    "tags": [
+      "PPT",
+      "AI",
+      "生成"
+    ],
+    "url": "https://ppt.isheji.com/"
+  },
+  {
+    "category": "AI幻灯片PPT",
+    "name": "国外的智能PPT生成",
+    "desc": "",
+    "tags": [
+      "PPT",
+      "AI",
+      "生成"
+    ],
+    "url": "https://chroniclehq.com/"
+  },
+  {
+    "category": "AI幻灯片PPT",
+    "name": "必优推出的中文AI生成PPT",
+    "desc": "",
+    "tags": [
+      "PPT",
+      "AI",
+      "生成"
+    ],
+    "url": "https://chat-ppt.com/"
+  },
+  {
+    "category": "AI幻灯片PPT",
+    "name": "国内独立开发的输入内容自动生成PPT",
+    "desc": "",
+    "tags": [
+      "PPT",
+      "AI",
+      "生成"
+    ],
+    "url": "https://www.mindshow.fun/?ref=ai-bot.cn#/home"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "网易云音乐AI歌手音乐创作软件",
+    "desc": "网易云推出的AI音乐创作与歌手生成平台。",
+    "tags": [
+      "音频",
+      "音乐生成",
+      "网易"
+    ],
+    "url": "https://xstudio.music.163.com/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "SpleeterGui",
+    "desc": "基于Spleeter的音轨分离工具，适用于Windows。",
+    "tags": [
+      "音频",
+      "分离",
+      "开源"
+    ],
+    "url": "https://github.com/boy1dr/SpleeterGui"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "Voice.ai",
+    "desc": "AI实时变声工具，支持多平台。",
+    "tags": [
+      "音频",
+      "变声",
+      "实时"
+    ],
+    "url": "https://voice.ai/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "Voicemod AI变声工具",
+    "desc": "Voicemod推出的AI语音变声与特效。",
+    "tags": [
+      "音频",
+      "变声",
+      "娱乐"
+    ],
+    "url": "https://www.voicemod.net/ai-voices/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "Lalal.ai",
+    "desc": "AI人声与乐器分离和提取工具。",
+    "tags": [
+      "音频",
+      "分离",
+      "AI"
+    ],
+    "url": "https://www.lalal.ai/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "Beatbot",
+    "desc": "输入文本快速生成歌曲和音乐。",
+    "tags": [
+      "音频",
+      "音乐生成",
+      "文本生成"
+    ],
+    "url": "https://beatbot.fm/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "AssemblyAI",
+    "desc": "AI语音转录与理解API平台。",
+    "tags": [
+      "音频",
+      "语音识别",
+      "API"
+    ],
+    "url": "https://www.assemblyai.com/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "讯飞智作配音",
+    "desc": "科大讯飞推出的AI转语音和配音工具。",
+    "tags": [
+      "音频",
+      "配音",
+      "语音合成"
+    ],
+    "url": "https://peiyin.xunfei.cn/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "腾讯音乐TME Studio",
+    "desc": "腾讯推出的智能音乐创作助手。",
+    "tags": [
+      "音频",
+      "音乐生成",
+      "腾讯"
+    ],
+    "url": "https://y.qq.com/tme_studio"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "网易天音AI音乐创作工具",
+    "desc": "网易推出的一站式AI音乐创作平台。",
+    "tags": [
+      "音频",
+      "音乐生成",
+      "网易"
+    ],
+    "url": "https://tianyin.music.163.com/#/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "Moyin有声书AI配音平台",
+    "desc": "短视频、有声书AI配音平台。",
+    "tags": [
+      "音频",
+      "配音",
+      "有声书"
+    ],
+    "url": "https://www.moyin.com/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "Stability AI音频生成",
+    "desc": "Stability AI拓展音频生成领域的创新平台。",
+    "tags": [
+      "音频",
+      "生成",
+      "AI"
+    ],
+    "url": "https://www.stableaudio.com/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "Speechify",
+    "desc": "AI文字转语音朗读工具，支持多平台。",
+    "tags": [
+      "音频",
+      "朗读",
+      "文字转语音"
+    ],
+    "url": "https://speechify.com/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "悦音配音",
+    "desc": "智能在线配音与语音合成工具。",
+    "tags": [
+      "音频",
+      "配音",
+      "语音合成"
+    ],
+    "url": "https://yueyin.zhipianbang.com/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "Uberduck",
+    "desc": "开源AI语音生成社区，支持多种声音。",
+    "tags": [
+      "音频",
+      "语音生成",
+      "开源"
+    ],
+    "url": "https://www.uberduck.ai/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "Play.ht",
+    "desc": "AI在线语音生成，超真实语音合成。",
+    "tags": [
+      "音频",
+      "语音合成",
+      "AI"
+    ],
+    "url": "https://play.ht/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "Typecast",
+    "desc": "AI文字转语音生成工具，适合多场景。",
+    "tags": [
+      "音频",
+      "文字转语音",
+      "多场景"
+    ],
+    "url": "https://typecast.ai/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "Beatoven",
+    "desc": "免版权AI音乐创作平台。",
+    "tags": [
+      "音频",
+      "音乐生成",
+      "免版权"
+    ],
+    "url": "https://www.beatoven.ai/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "Veed AI语音生成器",
+    "desc": "Veed推出的AI语音生成与视频配音。",
+    "tags": [
+      "音频",
+      "语音生成",
+      "视频配音"
+    ],
+    "url": "https://www.veed.io/tools/text-to-speech-video"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "Notta AI",
+    "desc": "AI在线将语音转为文字，支持多语言。",
+    "tags": [
+      "音频",
+      "语音转文字",
+      "多语言"
+    ],
+    "url": "https://www.notta.ai"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "NaturalReader",
+    "desc": "AI文本转语音朗读工具，适合阅读辅助。",
+    "tags": [
+      "音频",
+      "朗读",
+      "辅助"
+    ],
+    "url": "https://www.naturalreaders.com/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "Listnr AI",
+    "desc": "AI文本到语音生成器，支持多种声音。",
+    "tags": [
+      "音频",
+      "语音生成",
+      "多声音"
+    ],
+    "url": "https://listnr.ai/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "IBM Watson文字转语音",
+    "desc": "IBM推出的AI文字转语音服务。",
+    "tags": [
+      "音频",
+      "文字转语音",
+      "IBM"
+    ],
+    "url": "https://www.ibm.com/products/text-to-speech"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "FakeYou",
+    "desc": "AI深度伪造文字转语音工具。",
+    "tags": [
+      "音频",
+      "伪造",
+      "语音合成"
+    ],
+    "url": "https://fakeyou.com/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "Mubert",
+    "desc": "AI生成BGM背景音乐工具。",
+    "tags": [
+      "音频",
+      "BGM",
+      "音乐生成"
+    ],
+    "url": "https://mubert.com/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "Audo.ai",
+    "desc": "AI音频清洗工具，支持降噪、均衡等。",
+    "tags": [
+      "音频",
+      "降噪",
+      "清洗"
+    ],
+    "url": "https://audo.ai/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "Soundraw",
+    "desc": "AI音乐生成平台，支持多风格。",
+    "tags": [
+      "音频",
+      "音乐生成",
+      "多风格"
+    ],
+    "url": "https://soundraw.io/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "Riffusion",
+    "desc": "AI生成不同风格音乐的创新平台。",
+    "tags": [
+      "音频",
+      "音乐生成",
+      "创新"
+    ],
+    "url": "https://www.riffusion.com/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "ACE Studio",
+    "desc": "AI歌声合成工具，输入歌词与旋律即可生成。",
+    "tags": [
+      "音频",
+      "歌声合成",
+      "AI"
+    ],
+    "url": "https://ace-studio.timedomain.cn/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "BGM猫",
+    "desc": "AI智能生成BGM音乐平台。",
+    "tags": [
+      "音频",
+      "BGM",
+      "智能生成"
+    ],
+    "url": "https://bgmcat.com/home"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "Clipchamp",
+    "desc": "微软旗下在线视频编辑与AI旁白生成。",
+    "tags": [
+      "音频",
+      "视频编辑",
+      "旁白"
+    ],
+    "url": "https://clipchamp.com/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "ElevenLabs",
+    "desc": "AI文字转语音，支持28种语言。",
+    "tags": [
+      "音频",
+      "多语言",
+      "文字转语音"
+    ],
+    "url": "https://elevenlabs.io/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "Murf AI",
+    "desc": "AI文字转语音生成工具，适合多场景。",
+    "tags": [
+      "音频",
+      "文字转语音",
+      "多场景"
+    ],
+    "url": "https://murf.ai/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "Voicemaker",
+    "desc": "AI文本到语音生成工具，支持多种声音。",
+    "tags": [
+      "音频",
+      "语音生成",
+      "多声音"
+    ],
+    "url": "https://voicemaker.in/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "Boomy",
+    "desc": "AI快速生成原创音乐的平台。",
+    "tags": [
+      "音频",
+      "音乐生成",
+      "原创"
+    ],
+    "url": "https://boomy.com/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "MetaVoice",
+    "desc": "AI实时变声工具，适合娱乐与直播。",
+    "tags": [
+      "音频",
+      "变声",
+      "娱乐"
+    ],
+    "url": "https://themetavoice.xyz/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "Krisp",
+    "desc": "AI降噪消除工具，适合远程会议。",
+    "tags": [
+      "音频",
+      "降噪",
+      "会议"
+    ],
+    "url": "https://krisp.ai/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "Resemble AI",
+    "desc": "AI人声生成与克隆平台。",
+    "tags": [
+      "音频",
+      "人声克隆",
+      "AI"
+    ],
+    "url": "https://www.resemble.ai/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "Lovo AI",
+    "desc": "AI人声和文本转语音生成工具。",
+    "tags": [
+      "音频",
+      "人声",
+      "文字转语音"
+    ],
+    "url": "https://lovo.ai/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "Adobe Podcast",
+    "desc": "Adobe推出的AI音频录制与编辑工具。",
+    "tags": [
+      "音频",
+      "录制",
+      "编辑"
+    ],
+    "url": "https://podcast.adobe.com/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "AI智能生成BGM音乐",
+    "desc": "AI自动生成多风格BGM背景音乐。",
+    "tags": [
+      "音频",
+      "BGM",
+      "AI"
+    ],
+    "url": "https://bgmcat.com/home"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "Adobe推出的在线AI音频录制和编辑工具",
+    "desc": "Adobe官方AI音频录制与编辑平台。",
+    "tags": [
+      "音频",
+      "录制",
+      "编辑"
+    ],
+    "url": "https://podcast.adobe.com/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "AI音频清洗工具（噪音消除、声音平衡、音量调节）",
+    "desc": "AI音频降噪、均衡与清洗工具。",
+    "tags": [
+      "音频",
+      "降噪",
+      "清洗"
+    ],
+    "url": "https://audo.ai/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "短视频.有声书AI配音平台",
+    "desc": "短视频、有声书AI配音与合成。",
+    "tags": [
+      "音频",
+      "配音",
+      "有声书"
+    ],
+    "url": "https://www.moyin.com/"
+  },
+  {
+    "category": "AI音频工具",
+    "name": "AI生成不同风格的音乐",
+    "desc": "AI生成多种风格音乐的创新平台。",
+    "tags": [
+      "音频",
+      "音乐生成",
+      "创新"
+    ],
+    "url": "https://www.riffusion.com/"
+  },
+  {
+    "category": "AI视频工具",
+    "name": "奇妙元（出门问问）",
+    "desc": "AI数字人视频生成平台，支持虚拟形象。",
+    "tags": [
+      "视频生成",
+      "数字人",
+      "AI"
+    ],
+    "url": "https://weta365.com/conduct"
+  },
+  {
+    "category": "AI视频工具",
+    "name": "AI换脸。AI短视频，照片数字人",
+    "desc": "",
+    "tags": [
+      "视频",
+      "AI",
+      "生成"
+    ],
+    "url": "https://ai.kezhan365.com/face/60009"
+  },
+  {
+    "category": "AI视频工具",
+    "name": "Elai.io：AI文本到视频生成工具",
+    "desc": "",
+    "tags": [
+      "视频",
+      "AI",
+      "生成"
+    ],
+    "url": "https://elai.io/"
+  },
+  {
+    "category": "AI视频工具",
+    "name": "度加创作工具",
+    "desc": "百度官方出品的AIGC创作平台",
+    "tags": [
+      "视频",
+      "AI",
+      "生成"
+    ],
+    "url": "https://aigc.baidu.com/"
+  },
+  {
+    "category": "AI视频工具",
+    "name": "好莱坞也在用的AI视频颜色分级工具",
+    "desc": "",
+    "tags": [
+      "视频",
+      "AI",
+      "生成"
+    ],
+    "url": "https://colourlab.ai/"
+  },
+  {
+    "category": "AI视频工具",
+    "name": "HeyGen - AIGC 视频创建平台，生成吸引人的商业视频",
+    "desc": "",
+    "tags": [
+      "视频",
+      "AI",
+      "生成"
+    ],
+    "url": "https://www.heygen.com/"
+  },
+  {
+    "category": "AI视频工具",
+    "name": "Kaiber",
+    "desc": "图片文字转视频的AI引擎",
+    "tags": [
+      "视频",
+      "AI",
+      "生成"
+    ],
+    "url": "https://kaiber.ai/"
+  },
+  {
+    "category": "AI视频工具",
+    "name": "Rephrase.ai：AI文字到视频生成",
+    "desc": "",
+    "tags": [
+      "视频",
+      "AI",
+      "生成"
+    ],
+    "url": "https://www.rephrase.ai/"
+  },
+  {
+    "category": "AI视频工具",
+    "name": "Runway",
+    "desc": "最强AI视频工具，绿幕抠除、视频生成、动态捕捉等功能",
+    "tags": [
+      "视频",
+      "AI",
+      "生成"
+    ],
+    "url": "https://runwayml.com/green-screen/"
+  },
+  {
+    "category": "AI视频工具",
+    "name": "DeepBrain：AI口播视频生成工具",
+    "desc": "",
+    "tags": [
+      "视频",
+      "AI",
+      "生成"
+    ],
+    "url": "https://www.deepbrain.io/"
+  },
+  {
+    "category": "AI视频工具",
+    "name": "Fliki：AI文字转视频并配音",
+    "desc": "",
+    "tags": [
+      "视频",
+      "AI",
+      "生成"
+    ],
+    "url": "https://fliki.ai/"
+  },
+  {
+    "category": "AI视频工具",
+    "name": "AI虚拟人出镜视频生成",
+    "desc": "",
+    "tags": [
+      "视频",
+      "AI",
+      "生成"
+    ],
+    "url": "https://www.colossyan.com/"
+  },
+  {
+    "category": "AI视频工具",
+    "name": "Synthesia：AI视频生成平台",
+    "desc": "",
+    "tags": [
+      "视频",
+      "AI",
+      "生成"
+    ],
+    "url": "https://www.synthesia.io/"
+  },
+  {
+    "category": "AI表格数据处理",
+    "name": "处理Excel和Google Sheets表格的AI工具",
+    "desc": "AI辅助处理Excel和Google Sheets表格数据。",
+    "tags": [
+      "表格",
+      "数据处理",
+      "AI"
+    ],
+    "url": "https://ajelix.com/"
+  },
+  {
+    "category": "AI表格数据处理",
+    "name": "Excel公式生成工具",
+    "desc": "AI自动生成Excel公式，提升办公效率。",
+    "tags": [
+      "表格",
+      "公式生成",
+      "办公"
+    ],
+    "url": "https://www.boloforms.com/sheetgod/"
+  },
+  {
+    "category": "AI表格数据处理",
+    "name": "AI将文本输入转化成Excel公式处理",
+    "desc": "将自然语言描述转为Excel公式。",
+    "tags": [
+      "表格",
+      "自然语言",
+      "公式"
+    ],
+    "url": "https://formularizer.com/"
+  },
+  {
+    "category": "AI表格数据处理",
+    "name": "AI在线表格处理工具",
+    "desc": "在线AI工具，支持多种表格数据处理。",
+    "tags": [
+      "表格",
+      "在线",
+      "数据处理"
+    ],
+    "url": "https://rows.com/"
+  },
+  {
+    "category": "AI表格数据处理",
+    "name": "北大开发的通过聊天来操作的Excel表格的AI工具",
+    "desc": "通过对话操作Excel表格，提升交互体验。",
+    "tags": [
+      "表格",
+      "对话",
+      "智能"
+    ],
+    "url": "https://chatexcel.com/"
+  },
+  {
+    "category": "AI表格数据处理",
+    "name": "Excel和Google Sheets表格的AI处理工具",
+    "desc": "AI辅助处理多平台表格数据。",
+    "tags": [
+      "表格",
+      "多平台",
+      "AI"
+    ],
+    "url": "https://sheetplus.ai/"
+  },
+  {
+    "category": "AI表格数据处理",
+    "name": "AI自动从表格和文档中提取数据",
+    "desc": "AI自动识别并提取表格、文档中的数据。",
+    "tags": [
+      "表格",
+      "数据提取",
+      "AI"
+    ],
+    "url": "https://www.formx.ai/"
+  },
+  {
+    "category": "AI表格数据处理",
+    "name": "将文本转换成Excel和Google Sheets公式",
+    "desc": "自然语言转公式，适配多平台。",
+    "tags": [
+      "表格",
+      "公式",
+      "自然语言"
+    ],
+    "url": "https://excelly-ai.io/index.html"
+  },
+  {
+    "category": "AI表格数据处理",
+    "name": "AI将指令转换成Excel的函数公式",
+    "desc": "AI将操作指令转为Excel函数。",
+    "tags": [
+      "表格",
+      "函数",
+      "AI"
+    ],
+    "url": "https://formulabot.com/"
+  },
+  {
+    "category": "AI会议工具",
+    "name": "AI会议转录和会议纪要生成工具",
+    "desc": "AI自动转录会议内容并生成会议纪要。",
+    "tags": [
+      "会议",
+      "转录",
+      "纪要"
+    ],
+    "url": "https://fireflies.ai/"
+  },
+  {
+    "category": "AI会议工具",
+    "name": "chatGPT驱动的AI会议转录工具（国外）",
+    "desc": "基于chatGPT的AI会议转录工具，支持多语言。",
+    "tags": [
+      "会议",
+      "转录",
+      "chatGPT"
+    ],
+    "url": "https://noty.ai/"
+  },
+  {
+    "category": "AI会议工具",
+    "name": "AI会议转录工具",
+    "desc": "阿里云听悟推出的AI会议转录与语音识别。",
+    "tags": [
+      "会议",
+      "转录",
+      "语音识别"
+    ],
+    "url": "https://tingwu.aliyun.com/?utm_source=ai-bot.cn"
+  },
+  {
+    "category": "AI会议工具",
+    "name": "AI自动会议笔记和总结（国外）",
+    "desc": "AI自动生成会议笔记与总结，提升效率。",
+    "tags": [
+      "会议",
+      "笔记",
+      "总结"
+    ],
+    "url": "https://www.airgram.io/"
+  },
+  {
+    "category": "AI会议工具",
+    "name": "AI智能会议记要和快捷语音识别转文字",
+    "desc": "飞书推出的AI会议纪要与语音转文字工具。",
+    "tags": [
+      "会议",
+      "纪要",
+      "语音识别"
+    ],
+    "url": "https://www.feishu.cn/product/minutes"
+  },
+  {
+    "category": "AI会议工具",
+    "name": "国外的AI会议内容生成和实时转录",
+    "desc": "Otter.ai提供的AI会议内容生成与实时转录服务。",
+    "tags": [
+      "会议",
+      "转录",
+      "实时"
+    ],
+    "url": "https://otter.ai/"
+  },
+  {
+    "category": "AI会议工具",
+    "name": "Notta:AI在线将语音转换成文字",
+    "desc": "Notta支持多语言语音转文字，适合会议、采访等场景。",
+    "tags": [
+      "音频",
+      "语音转文字",
+      "多语言"
+    ],
+    "url": "https://www.notta.ai"
+  },
+  {
+    "category": "AI会议工具",
+    "name": "AI快速生成原创音乐的平台",
+    "desc": "Boomy平台，AI快速生成原创音乐。",
+    "tags": [
+      "音频",
+      "音乐生成",
+      "原创"
+    ],
+    "url": "https://boomy.com/"
+  },
+  {
+    "category": "AI会议工具",
+    "name": "在线语音生成，超真实",
+    "desc": "Play.ht，AI超真实语音生成平台。",
+    "tags": [
+      "音频",
+      "语音生成",
+      "超真实"
+    ],
+    "url": "https://play.ht/"
+  },
+  {
+    "category": "AI会议工具",
+    "name": "Deep Fake文本转语音",
+    "desc": "FakeYou，AI深度伪造文本转语音工具。",
+    "tags": [
+      "音频",
+      "伪造",
+      "语音合成"
+    ],
+    "url": "https://fakeyou.com/"
+  },
+  {
+    "category": "AI会议工具",
+    "name": "AI文本转语音，支持包含中文在内的28种语音",
+    "desc": "ElevenLabs，AI文本转语音，支持28种语言。",
+    "tags": [
+      "音频",
+      "文字转语音",
+      "多语言"
+    ],
+    "url": "https://elevenlabs.io/"
+  },
+  {
+    "category": "AI图片优化修复",
+    "name": "playgroundai图片生成和修图",
+    "desc": "PlaygroundAI，AI图片生成与修图平台。",
+    "tags": [
+      "图片优化",
+      "修图",
+      "生成"
+    ],
+    "url": "https://playgroundai.com/"
+  },
+  {
+    "category": "AI图片优化修复",
+    "name": "AI老照片修复",
+    "desc": "RestorePhotos，AI修复老旧照片，提升画质。",
+    "tags": [
+      "图片优化",
+      "修复",
+      "老照片"
+    ],
+    "url": "https://www.restorephotos.io/"
+  },
+  {
+    "category": "AI图片优化修复",
+    "name": "clipdrop推出的AI图像打光工具",
+    "desc": "Clipdrop，AI智能为图片打光。",
+    "tags": [
+      "图片优化",
+      "打光",
+      "AI"
+    ],
+    "url": "https://clipdrop.co/relight"
+  },
+  {
+    "category": "AI图片优化修复",
+    "name": "transpic图像绘画插画创作平台",
+    "desc": "Transpic，AI图像绘画与插画创作平台。",
+    "tags": [
+      "图片优化",
+      "插画",
+      "创作"
+    ],
+    "url": "https://transpic.cn/?utm_source=ai-bot.cn"
+  },
+  {
+    "category": "AI图片优化修复",
+    "name": "facet：图片修图和优化工具",
+    "desc": "Facet，AI图片修图与优化工具。",
+    "tags": [
+      "图片优化",
+      "修图",
+      "AI"
+    ],
+    "url": "https://facet.ai/"
+  },
+  {
+    "category": "AI图片优化修复",
+    "name": "palette：图片调色上色",
+    "desc": "Palette，AI图片调色与上色工具。",
+    "tags": [
+      "图片优化",
+      "调色",
+      "上色"
+    ],
+    "url": "https://palette.fm/"
+  },
+  {
+    "category": "AI图片背景移除",
+    "name": "AI产品图精美背景添加",
+    "desc": "Pebblely，AI为产品图添加精美背景。",
+    "tags": [
+      "图片背景",
+      "添加",
+      "AI"
+    ],
+    "url": "https://pebblely.com/"
+  },
+  {
+    "category": "AI图片背景移除",
+    "name": "AI产品背景移除和替换",
+    "desc": "Pixelcut，AI产品背景一键移除与替换。",
+    "tags": [
+      "图片背景",
+      "移除",
+      "替换"
+    ],
+    "url": "https://www.pixelcut.ai/"
+  },
+  {
+    "category": "AI图片背景移除",
+    "name": "智能抠图和无损放大2个工具",
+    "desc": "Icons8，AI智能抠图与无损放大。",
+    "tags": [
+      "图片背景",
+      "抠图",
+      "放大"
+    ],
+    "url": "https://icons8.com/goprod?utm_source=ai-bot.cn"
+  },
+  {
+    "category": "AI图片背景移除",
+    "name": "STYLIZED推出的图片背景移除工具",
+    "desc": "Stylized，AI图片背景移除工具。",
+    "tags": [
+      "图片背景",
+      "移除",
+      "AI"
+    ],
+    "url": "https://www.stylized.ai/"
+  },
+  {
+    "category": "AI图片背景移除",
+    "name": "图片背景移除工具",
+    "desc": "Adobe，AI图片背景移除与编辑。",
+    "tags": [
+      "图片背景",
+      "移除",
+      "编辑"
+    ],
+    "url": "https://www.adobe.com/express/feature/image/remove-background"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "Freepik推出的AI文本到图像在线生成工具",
+    "desc": "Freepik平台，AI文本生成图片。",
+    "tags": [
+      "插画",
+      "文本生成",
+      "AI"
+    ],
+    "url": "https://wepik.com/ai"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "在线生成二次元动漫头像",
+    "desc": "WaifuLabs，AI生成二次元动漫头像。",
+    "tags": [
+      "插画",
+      "动漫",
+      "头像"
+    ],
+    "url": "https://waifulabs.com/"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "stability AI推出的文本到图像生成",
+    "desc": "Stability AI，文本生成图片平台。",
+    "tags": [
+      "插画",
+      "文本生成",
+      "AI"
+    ],
+    "url": "https://stability.ai/"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "创客贴AI画匠",
+    "desc": "创客贴AI画匠，AI智能绘画平台。",
+    "tags": [
+      "插画",
+      "绘画",
+      "AI"
+    ],
+    "url": "https://aiart.chuangkit.com/landingpage"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "百度推出的文心一格，AI艺术和创意辅助平台",
+    "desc": "百度文心一格，AI艺术创作平台。",
+    "tags": [
+      "插画",
+      "艺术",
+      "百度"
+    ],
+    "url": "https://yige.baidu.com/"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "在线AI插画创作平台，支持文生图，图生图，条件生图等绘画模式",
+    "desc": "RightBrain，支持多种AI绘画模式。",
+    "tags": [
+      "插画",
+      "绘画",
+      "多模式"
+    ],
+    "url": "https://rightbrain.art/"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "网易AI创意工坊",
+    "desc": "网易AI创意工坊，AI插画与绘画平台。",
+    "tags": [
+      "插画",
+      "绘画",
+      "网易"
+    ],
+    "url": "https://ke.study.163.com/artWorks/painting?utm_source=ai-bot.cn"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "面包多团队推出的从文本描述生成绘画",
+    "desc": "6pen.art，AI文本生成绘画。",
+    "tags": [
+      "插画",
+      "文本生成",
+      "AI"
+    ],
+    "url": "https://6pen.art/"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "国内推出的AI艺术画生成工具",
+    "desc": "Tiamat，国内AI艺术画生成平台。",
+    "tags": [
+      "插画",
+      "艺术",
+      "国内"
+    ],
+    "url": "https://www.tiamat.com/"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "微软必应推出的DALL-E的AI图像生成工具",
+    "desc": "必应DALL-E，AI图像生成工具。",
+    "tags": [
+      "插画",
+      "图像生成",
+      "微软"
+    ],
+    "url": "https://cn.bing.com/create"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "Craiyon:在线文本到图像生成",
+    "desc": "Craiyon，AI文本生成图片。",
+    "tags": [
+      "插画",
+      "文本生成",
+      "AI"
+    ],
+    "url": "https://www.craiyon.com/"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "国外的创建令人惊叹的插画和艺术",
+    "desc": "Artbreeder，AI插画与艺术创作。",
+    "tags": [
+      "插画",
+      "艺术",
+      "AI"
+    ],
+    "url": "https://www.artbreeder.com/"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "Stockimg AI生成各种类型的图像和插画",
+    "desc": "Stockimg，AI多类型图像插画生成。",
+    "tags": [
+      "插画",
+      "图像生成",
+      "AI"
+    ],
+    "url": "https://stockimg.ai/"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "Canva AI图像生成",
+    "desc": "Canva，AI图像生成与编辑。",
+    "tags": [
+      "插画",
+      "图像生成",
+      "编辑"
+    ],
+    "url": "https://www.canva.com/features/ai-photo-editing/"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "美图AI文生图",
+    "desc": "美图AI，文本生成图片工具。",
+    "tags": [
+      "插画",
+      "文本生成",
+      "美图"
+    ],
+    "url": "https://account.meitu.com/"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "通义万相AI绘画创作模型",
+    "desc": "阿里通义万相，AI绘画创作平台。",
+    "tags": [
+      "插画",
+      "绘画",
+      "阿里"
+    ],
+    "url": "https://wanxiang.aliyun.com/"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "AI生成和合成360度全景图像插画",
+    "desc": "BlockadeLabs，AI生成360度全景插画。",
+    "tags": [
+      "插画",
+      "全景",
+      "AI"
+    ],
+    "url": "https://skybox.blockadelabs.com/"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "阿里推出的多风格AI绘画生成器",
+    "desc": "阿里多风格AI绘画生成器。",
+    "tags": [
+      "插画",
+      "绘画",
+      "阿里"
+    ],
+    "url": "https://d.design/"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "DreamUP:AI插画工具",
+    "desc": "DreamUP，AI插画创作工具。",
+    "tags": [
+      "插画",
+      "创作",
+      "AI"
+    ],
+    "url": "https://www.dreamup.com/"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "Astria:人工智能图像生成",
+    "desc": "Astria，AI图像生成平台。",
+    "tags": [
+      "插画",
+      "图像生成",
+      "AI"
+    ],
+    "url": "https://www.astria.ai/"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "万兴爱画：AI生成艺术画工具",
+    "desc": "万兴爱画，AI艺术画生成工具。",
+    "tags": [
+      "插画",
+      "艺术",
+      "AI"
+    ],
+    "url": "https://aigc.wondershare.cn/"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "Deep Dream GENERATOR:插画生成",
+    "desc": "Deep Dream Generator，AI插画生成平台。",
+    "tags": [
+      "插画",
+      "生成",
+      "AI"
+    ],
+    "url": "https://deepdreamgenerator.com/"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "画宇宙，人工智能AI作画网站",
+    "desc": "画宇宙，AI作画与创作平台。",
+    "tags": [
+      "插画",
+      "作画",
+      "AI"
+    ],
+    "url": "https://creator.nolibox.com/"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "天工巧绘AI插画绘制工具",
+    "desc": "天工巧绘，AI插画绘制工具。",
+    "tags": [
+      "插画",
+      "绘制",
+      "AI"
+    ],
+    "url": "https://sky-paint.singularity-ai.com/"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "Freepik推出的AI图片生成工具",
+    "desc": "Freepik，AI图片生成工具。",
+    "tags": [
+      "插画",
+      "图片生成",
+      "AI"
+    ],
+    "url": "https://www.freepik.com/ai/image-generator"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "搜狐推出的AI图片生成平台",
+    "desc": "搜狐AI图片生成平台。",
+    "tags": [
+      "插画",
+      "图片生成",
+      "搜狐"
+    ],
+    "url": "https://ai.sohu.com/"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "Getimg:在线AI图像和插画创作工具",
+    "desc": "Getimg，AI图像与插画创作平台。",
+    "tags": [
+      "插画",
+      "创作",
+      "AI"
+    ],
+    "url": "https://getimg.ai/"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "无限画：千库网推出的AI图片插画生成工具",
+    "desc": "无限画，AI图片插画生成工具。",
+    "tags": [
+      "插画",
+      "插画生成",
+      "千库网"
+    ],
+    "url": "https://588ku.com/ai/wuxianhua/Home?ref=ai-bot.cn"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "WHEE：AI图片和绘画创作生成平台",
+    "desc": "WHEE，AI图片与绘画创作平台。",
+    "tags": [
+      "插画",
+      "绘画",
+      "AI"
+    ],
+    "url": "https://www.whee.com/"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "Scribble Diffusion:将草图转变为插画",
+    "desc": "Scribble Diffusion，AI草图转插画工具。",
+    "tags": [
+      "插画",
+      "草图",
+      "AI"
+    ],
+    "url": "https://scribblediffusion.com/"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "BlueWillow:AI图像艺术画生成工具",
+    "desc": "BlueWillow，AI图像艺术画生成工具。",
+    "tags": [
+      "插画",
+      "艺术画",
+      "AI"
+    ],
+    "url": "https://www.bluewillow.ai/"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "Adobe最新推出的AI图片生成工具",
+    "desc": "Adobe Firefly，AI图片生成工具。",
+    "tags": [
+      "插画",
+      "图片生成",
+      "Adobe"
+    ],
+    "url": "https://www.adobe.com/sensei/generative-ai/firefly.html"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "在线插画生成工具",
+    "desc": "Dreamlike，AI在线插画生成工具。",
+    "tags": [
+      "插画",
+      "插画生成",
+      "AI"
+    ],
+    "url": "https://dreamlike.art/"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "AI图像和插画生成工具",
+    "desc": "Midjourney，AI图像和插画生成工具。",
+    "tags": [
+      "插画",
+      "插画生成",
+      "AI"
+    ],
+    "url": "https://www.midjourney.com/"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "Lexica:基于Stable Diffusion的在线插画生成",
+    "desc": "Lexica，Stable Diffusion插画生成。",
+    "tags": [
+      "插画",
+      "插画生成",
+      "StableDiffusion"
+    ],
+    "url": "https://lexica.art/"
+  },
+  {
+    "category": "AI图片插画生成",
+    "name": "Photosonic:AI艺术插画生成工具",
+    "desc": "Photosonic，AI艺术插画生成工具。",
+    "tags": [
+      "插画",
+      "艺术",
+      "AI"
+    ],
+    "url": "https://photosonic.pro/"
+  },
+  {
+    "category": "AI提示指令",
+    "name": "AI prompts集合市场",
+    "desc": "PromptBase，AI Prompts交易与分享平台。",
+    "tags": [
+      "Prompts",
+      "市场",
+      "AI"
+    ],
+    "url": "https://promptbase.com/"
+  },
+  {
+    "category": "AI提示指令",
+    "name": "高质量的Prompts集合",
+    "desc": "PublicPrompts，高质量AI Prompts集合。",
+    "tags": [
+      "Prompts",
+      "集合",
+      "AI"
+    ],
+    "url": "https://publicprompts.art/"
+  },
+  {
+    "category": "AI提示指令",
+    "name": "针对Stable Diffusion指令的手册",
+    "desc": "OpenArt，Stable Diffusion指令手册。",
+    "tags": [
+      "Prompts",
+      "StableDiffusion",
+      "手册"
+    ],
+    "url": "https://openart.ai/"
+  },
+  {
+    "category": "AI提示指令",
+    "name": "发现Stable Diffusion、ChatGPT和Midjourney的提示用语",
+    "desc": "PromptHero，AI多平台提示词集合。",
+    "tags": [
+      "Prompts",
+      "集合",
+      "多平台"
+    ],
+    "url": "https://prompthero.com/"
+  },
+  {
+    "category": "AI提示指令",
+    "name": "主要针对于SEO和SaaS文案写作的ChatGPT Prompts浏览器的扩展",
+    "desc": "AIPRM，SEO与SaaS文案Prompts扩展。",
+    "tags": [
+      "Prompts",
+      "SEO",
+      "SaaS"
+    ],
+    "url": "https://www.aiprm.com/"
+  },
+  {
+    "category": "AI提示指令",
+    "name": "免费的 Prompt Engineering 教程",
+    "desc": "LearningPrompt，免费Prompt工程教程。",
+    "tags": [
+      "Prompts",
+      "工程",
+      "教程"
+    ],
+    "url": "https://learningprompt.wiki/zh-Hans/"
+  },
+  {
+    "category": "AI提示指令",
+    "name": "ChatGPT指令大全",
+    "desc": "FlowGPT，ChatGPT指令与Prompts大全。",
+    "tags": [
+      "Prompts",
+      "ChatGPT",
+      "大全"
+    ],
+    "url": "https://flowgpt.com/"
+  },
+  {
+    "category": "AI提示指令",
+    "name": "开源的简单易用的ChatGPT快捷指令",
+    "desc": "AI Short，开源ChatGPT快捷指令库。",
+    "tags": [
+      "Prompts",
+      "ChatGPT",
+      "开源"
+    ],
+    "url": "https://www.aishort.top/"
+  },
+  {
+    "category": "AI提示指令",
+    "name": "Midjourney Prompt Helper",
+    "desc": "PromptFolder，Midjourney提示词助手。",
+    "tags": [
+      "Prompts",
+      "Midjourney",
+      "助手"
+    ],
+    "url": "https://promptfolder.com/midjourney-prompt-helper/"
+  },
+  {
+    "category": "AI提示指令",
+    "name": "AI绘画提示词分析平台",
+    "desc": "AI016，AI绘画提示词分析平台。",
+    "tags": [
+      "Prompts",
+      "绘画",
+      "分析"
+    ],
+    "url": "https://www.ai016.com/"
+  },
+  {
+    "category": "AI提示指令",
+    "name": "基于DALL-E 2的图片生成指令语句",
+    "desc": "Generrated，DALL-E 2图片生成指令。",
+    "tags": [
+      "Prompts",
+      "DALL-E2",
+      "图片生成"
+    ],
+    "url": "https://generrated.com/"
+  },
+  {
+    "category": "AI提示指令",
+    "name": "可视化AI提示语选择和搭建",
+    "desc": "Saxifrage，AI提示语可视化选择与搭建。",
+    "tags": [
+      "Prompts",
+      "可视化",
+      "搭建"
+    ],
+    "url": "https://tools.saxifrage.xyz/prompt"
+  },
+  {
+    "category": "AI提示指令",
+    "name": "专为Prompt编写者设计的工具",
+    "desc": "ClickPrompt，Prompt编写辅助工具。",
+    "tags": [
+      "Prompts",
+      "编写",
+      "辅助"
+    ],
+    "url": "https://www.clickprompt.org/zh-CN/"
+  },
+  {
+    "category": "AI提示指令",
+    "name": "免费开源的提示工程指南，GitHub标星超3万",
+    "desc": "PromptingGuide，开源提示工程指南。",
+    "tags": [
+      "Prompts",
+      "工程",
+      "开源"
+    ],
+    "url": "https://www.promptingguide.ai/zh"
+  },
+  {
+    "category": "AI提示指令",
+    "name": "ALGC精品提示词库",
+    "desc": "ICIHUN，精品AI提示词库。",
+    "tags": [
+      "Prompts",
+      "词库",
+      "AI"
+    ],
+    "url": "https://icihun.com/?ref=ai-bot.cn"
+  },
+  {
+    "category": "AI开发框架",
+    "name": "飞桨：开源深度学习平台",
+    "desc": "百度推出的国产开源深度学习平台，支持多场景AI开发。",
+    "tags": [
+      "深度学习",
+      "开源",
+      "国产"
+    ],
+    "url": "https://www.paddlepaddle.org.cn/"
+  },
+  {
+    "category": "AI开发框架",
+    "name": "Python自然语言处理工具包",
+    "desc": "经典的Python自然语言处理库，适合文本分析与处理。",
+    "tags": [
+      "NLP",
+      "Python",
+      "文本处理"
+    ],
+    "url": "https://www.nltk.org/"
+  },
+  {
+    "category": "AI开发框架",
+    "name": "Python机器学习库",
+    "desc": "广泛应用的Python机器学习库，支持多种算法。",
+    "tags": [
+      "机器学习",
+      "Python",
+      "算法"
+    ],
+    "url": "https://scikit-learn.org/"
+  },
+  {
+    "category": "AI开发框架",
+    "name": "免费开源的数据标注工具",
+    "desc": "支持多种数据类型标注的开源工具，适合AI训练集制作。",
+    "tags": [
+      "数据标注",
+      "开源",
+      "AI"
+    ],
+    "url": "https://labelstud.io/"
+  },
+  {
+    "category": "AI开发框架",
+    "name": "免费开源的深度学习框架",
+    "desc": "高性能的开源深度学习框架，适合大规模AI开发。",
+    "tags": [
+      "深度学习",
+      "开源",
+      "框架"
+    ],
+    "url": "https://mxnet.apache.org/versions/1.9.1/"
+  },
+  {
+    "category": "AI开发框架",
+    "name": "用于变换数值函数的机器学习框架",
+    "desc": "专注数值函数变换的高效机器学习框架。",
+    "tags": [
+      "机器学习",
+      "数值计算",
+      "AI"
+    ],
+    "url": "https://jax.readthedocs.io/en/latest/"
+  },
+  {
+    "category": "AI开发框架",
+    "name": "华为开源自研AI深度学习框架",
+    "desc": "华为自研的开源AI深度学习框架，支持多场景。",
+    "tags": [
+      "深度学习",
+      "开源",
+      "华为"
+    ],
+    "url": "https://www.mindspore.cn/"
+  },
+  {
+    "category": "AI开发框架",
+    "name": "UC伯克利研究推出的深度学习框架",
+    "desc": "UC伯克利推出的经典深度学习框架。",
+    "tags": [
+      "深度学习",
+      "开源",
+      "学术"
+    ],
+    "url": "https://caffe.berkeleyvision.org/"
+  },
+  {
+    "category": "AI开发框架",
+    "name": "Python科学计算必备包",
+    "desc": "Python领域广泛应用的科学计算基础包。",
+    "tags": [
+      "科学计算",
+      "Python",
+      "基础包"
+    ],
+    "url": "https://numpy.org/"
+  },
+  {
+    "category": "AI开发框架",
+    "name": "开源机器学习框架",
+    "desc": "全球主流的开源机器学习框架，支持多平台。",
+    "tags": [
+      "机器学习",
+      "开源",
+      "AI"
+    ],
+    "url": "https://pytorch.org/"
+  },
+  {
+    "category": "AI开发框架",
+    "name": "开源的搭建AI聊天机器人的开发套件",
+    "desc": "便捷搭建AI聊天机器人的开源开发套件。",
+    "tags": [
+      "聊天机器人",
+      "开源",
+      "AI"
+    ],
+    "url": "https://vercel.com/templates/ai"
+  },
+  {
+    "category": "AI开发框架",
+    "name": "Google推出的人工智能开源库",
+    "desc": "Google官方推出的AI开源开发库。",
+    "tags": [
+      "AI",
+      "开源",
+      "Google"
+    ],
+    "url": "https://www.tensorflow.org/?hl=zh-cn"
+  }
+]
