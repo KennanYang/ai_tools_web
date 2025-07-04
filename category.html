@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>恺南的AI工具箱 - 分类</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@400;600&display=swap');
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'SF Pro Display', 'PingFang SC', 'Helvetica Neue', Arial, sans-serif;
+      background: linear-gradient(135deg, #f5f6fa 0%, #e9ebf0 100%);
+      color: #1d1d1f;
+      min-height: 100vh;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 18px;
+      padding: 40px 20px 20px 20px;
+      text-align: center;
+    }
+    .logo {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 2px 8px #0071e320;
+      border: 2.5px solid #fff;
+      background: #fff;
+    }
+    .header-title {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .header-title h1 {
+      font-size: 1.7em;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin: 0 0 6px 0;
+      background: linear-gradient(90deg, #0071e3 30%, #2997ff 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .header-title p {
+      color: #86868b;
+      font-size: 1em;
+      margin: 0;
+      letter-spacing: 0.5px;
+    }
+    .back-link {
+      display: inline-block;
+      margin: 18px 0 0 0;
+      color: #0071e3;
+      font-size: 1em;
+      text-decoration: none;
+      border-radius: 8px;
+      padding: 6px 18px;
+      background: #eaf6ff;
+      transition: background 0.18s;
+      position: absolute;
+      left: 24px;
+      top: 24px;
+    }
+    .back-link:hover {
+      background: #d0eaff;
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 20px 40px 20px;
+    }
+    .tag-filter-bar {
+      margin: 24px 0 32px 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+    }
+    .filter-label {
+      color: #86868b;
+      font-size: 1.05em;
+      margin-right: 8px;
+      font-weight: 500;
+    }
+    .filter-tag {
+      display: inline-block;
+      background: linear-gradient(90deg, #eaf6ff 60%, #f5f6fa 100%);
+      color: #0071e3;
+      border-radius: 14px;
+      padding: 4px 14px;
+      font-size: 1em;
+      font-weight: 500;
+      letter-spacing: 0.2px;
+      box-shadow: 0 1px 4px #0071e310;
+      cursor: pointer;
+      border: 2px solid transparent;
+      transition: background 0.2s, border 0.2s, color 0.2s;
+      margin-bottom: 4px;
+      user-select: none;
+    }
+    .filter-tag.selected {
+      background: linear-gradient(90deg, #0071e3 60%, #2997ff 100%);
+      color: #fff;
+      border: 2px solid #2997ff;
+    }
+    .tools-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 40px;
+      margin-top: 10px;
+    }
+    .tool-card {
+      background: rgba(255,255,255,0.98);
+      border-radius: 24px;
+      box-shadow: 0 8px 32px 0 #0071e320, 0 2px 8px 0 #0001;
+      padding: 38px 32px 28px 32px;
+      transition: transform 0.22s cubic-bezier(.4,0,.2,1), box-shadow 0.22s;
+      display: flex;
+      flex-direction: column;
+      min-height: 240px;
+      position: relative;
+      overflow: hidden;
+      border: 1.5px solid #e5eaf2;
+    }
+    .tool-card:hover {
+      transform: translateY(-10px) scale(1.035);
+      box-shadow: 0 16px 48px 0 #0071e340, 0 4px 16px 0 #0002;
+      border-color: #b3d6f7;
+    }
+    .tool-name {
+      font-size: 1.35em;
+      font-weight: 600;
+      margin-bottom: 14px;
+      color: #0071e3;
+      letter-spacing: 0.5px;
+      text-shadow: 0 1px 0 #fff8;
+    }
+    .tool-desc {
+      color: #444;
+      font-size: 1.08em;
+      margin-bottom: 22px;
+      flex: 1;
+      line-height: 1.7;
+    }
+    .tool-tags {
+      margin-bottom: 16px;
+    }
+    .tool-tag {
+      display: inline-block;
+      background: linear-gradient(90deg, #eaf6ff 60%, #f5f6fa 100%);
+      color: #0071e3;
+      border-radius: 14px;
+      padding: 4px 14px;
+      font-size: 1em;
+      margin-right: 10px;
+      margin-bottom: 4px;
+      font-weight: 500;
+      letter-spacing: 0.2px;
+      box-shadow: 0 1px 4px #0071e310;
+      transition: background 0.2s;
+    }
+    .tool-link a {
+      color: #fff;
+      background: linear-gradient(90deg, #0071e3 60%, #2997ff 100%);
+      padding: 10px 28px;
+      border-radius: 18px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.08em;
+      box-shadow: 0 2px 12px #0071e320;
+      transition: background 0.18s, box-shadow 0.18s;
+      display: inline-block;
+      letter-spacing: 0.5px;
+    }
+    .tool-link a:hover {
+      background: linear-gradient(90deg, #2997ff 60%, #0071e3 100%);
+      box-shadow: 0 6px 24px #0071e340;
+    }
+    @media (max-width: 900px) {
+      .header-title h1 { font-size: 1.1em; }
+      .container { padding: 0 4px 20px 4px; }
+      .tools-grid { gap: 18px; }
+      .tool-card { padding: 20px 10px 14px 10px; }
+    }
+    @media (max-width: 600px) {
+      .header { flex-direction: column; gap: 10px; padding: 18px 6px 10px 6px;}
+      .container { padding: 0 2px 10px 2px; }
+      .tools-grid { margin-top: 8px; }
+      .back-link { position: static; margin: 10px 0 0 0; }
+    }
+  </style>
+</head>
+<body>
+  <a class="back-link" href="index.html">← 返回首页</a>
+  <div class="header">
+    <img src="kennan.jpg" alt="logo" class="logo">
+    <div class="header-title">
+      <h1 id="catTitle">AI工具分类</h1>
+      <p id="catDesc"></p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="tag-filter-bar" id="tagFilterBar"></div>
+    <div class="tools-grid" id="toolsGrid"></div>
+  </div>
+  <script>
+    // 获取URL参数
+    function getQueryVariable(variable) {
+      var query = window.location.search.substring(1);
+      var vars = query.split("&");
+      for (var i=0;i<vars.length;i++) {
+        var pair = vars[i].split("=");
+        if(pair[0] == variable){return decodeURIComponent(pair[1]);}
+      }
+      return(false);
+    }
+    const cat = getQueryVariable('cat');
+    document.getElementById('catTitle').innerText = cat ? cat : 'AI工具分类';
+
+    let allTools = [];
+    let selectedTags = [];
+
+    function renderTools() {
+      let tools = allTools;
+      if (selectedTags.length > 0) {
+        tools = tools.filter(tool =>
+          selectedTags.every(tag => tool.tags.includes(tag))
+        );
+      }
+      let html = '';
+      if (tools.length === 0) {
+        html = '<div style="color:#888;font-size:1.2em;text-align:center;margin-top:40px;">暂无符合条件的工具</div>';
+      } else {
+        tools.forEach(tool => {
+          html += `
+            <div class="tool-card">
+              <div class="tool-name">${tool.name}</div>
+              <div class="tool-desc">${tool.desc}</div>
+              <div class="tool-tags">
+                ${tool.tags.map(t => `<span class="tool-tag">#${t}</span>`).join(' ')}
+              </div>
+              <div class="tool-link">
+                <a href="${tool.url}" target="_blank" rel="noopener">访问工具</a>
+              </div>
+            </div>
+          `;
+        });
+      }
+      document.getElementById('toolsGrid').innerHTML = html;
+      // 工具卡片内标签点击也可筛选
+      document.querySelectorAll('.tool-tag').forEach(tagEl => {
+        tagEl.onclick = function() {
+          const tag = tagEl.textContent.replace('#','');
+          toggleTag(tag);
+        }
+      });
+    }
+
+    function renderTagFilterBar() {
+      // 统计所有标签
+      const tagSet = new Set();
+      allTools.forEach(tool => tool.tags.forEach(tag => tagSet.add(tag)));
+      const tags = Array.from(tagSet).sort();
+      let html = '<span class="filter-label">标签筛选：</span>';
+      tags.forEach(tag => {
+        html += `<span class="filter-tag${selectedTags.includes(tag)?' selected':''}" data-tag="${tag}">#${tag}</span>`;
+      });
+      document.getElementById('tagFilterBar').innerHTML = html;
+      document.querySelectorAll('.filter-tag').forEach(tagEl => {
+        tagEl.onclick = function() {
+          const tag = tagEl.getAttribute('data-tag');
+          toggleTag(tag);
+        }
+      });
+    }
+
+    function toggleTag(tag) {
+      if (selectedTags.includes(tag)) {
+        selectedTags = selectedTags.filter(t => t !== tag);
+      } else {
+        selectedTags.push(tag);
+      }
+      renderTagFilterBar();
+      renderTools();
+    }
+
+    fetch('ai_tools.json')
+      .then(response => response.json())
+      .then(data => {
+        allTools = data.filter(item => item.category === cat);
+        renderTagFilterBar();
+        renderTools();
+      });
+  </script>
+</body>
+</html>
