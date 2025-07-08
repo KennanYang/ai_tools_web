@@ -1,3 +1,66 @@
+# 恺南的AI工具箱
+
+> 极简 · 高级 · 灵感源自 Apple 官网
+
+## 项目亮点
+
+- **关键词搜索**：支持中英文关键词实时搜索，快速定位所需AI工具。
+- **多标签筛选**：可多选标签组合过滤，精准查找。
+- **中英文切换**：一键切换中英文界面，所有工具、分组、标签、描述均双语展示。
+- **响应式美观UI**：苹果风格设计，适配PC和移动端。
+- **本地静态部署**：无需后端，支持 Cloudflare Pages、GitHub Pages 等静态托管。
+
+## 快速预览
+
+- 首页展示所有工具分类，点击进入分组页。
+- 分组页支持：
+  - 顶部关键词搜索框，输入中英文均可实时筛选工具
+  - 多标签筛选，可与搜索叠加
+  - 工具卡片展示名称、简介、标签、访问链接
+- 右上角语言切换按钮，支持中英文界面一键切换
+
+## 使用方法
+
+1. 克隆或下载本项目
+2. 本地预览（推荐用本地服务器）：
+   ```bash
+   cd ai_tools_web
+   python -m http.server 8080
+   ```
+   然后浏览器访问 http://localhost:8080/index.html
+3. 也可直接部署到 Cloudflare Pages、GitHub Pages 等平台
+
+## 数据结构说明
+
+- `ai_tools.json` 为分组结构，支持中英文字段：
+  ```json
+  [
+    {
+      "group_zh": "AI内容检测",
+      "group_en": "AI Content Detection",
+      "tools": [
+        {
+          "name_zh": "AISEO AI内容检测器",
+          "name_en": "AISEO AI Content Detector",
+          "desc_zh": "AISEO推出的AI内容检测与SEO优化工具。",
+          "desc_en": "AISEO's AI content detection and SEO optimization tool.",
+          "tags_zh": ["内容检测", "SEO"],
+          "tags_en": ["Content Detection", "SEO"],
+          "url": "https://aiseo.ai/AI-tools/ai-content-detection.html"
+        }
+      ]
+    }
+  ]
+  ```
+
+## 关键词搜索与双语切换演示
+
+- 在分组页顶部输入关键词（如"内容"或"content"），工具列表会实时筛选。
+- 点击右上角"English/中文"按钮，界面和数据即时切换中英文。
+
+---
+
+如需批量数据转换、自动翻译脚本或其它定制功能，欢迎联系作者！
 
 ---
 

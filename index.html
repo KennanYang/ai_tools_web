@@ -21,6 +21,7 @@
       gap: 18px;
       padding: 60px 20px 40px 20px;
       text-align: center;
+      position: relative;
     }
     .logo {
       width: 48px;
@@ -52,16 +53,98 @@
       margin: 0;
       letter-spacing: 0.5px;
     }
+    .lang-btn {
+      position: absolute;
+      right: 32px;
+      top: 32px;
+      padding: 8px 22px 8px 18px;
+      border-radius: 24px;
+      border: 1.5px solid #e5eaf2;
+      background: #fff;
+      color: #0071e3;
+      font-size: 1.08em;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 2px 12px #0071e320;
+      transition: background 0.18s, box-shadow 0.18s, border 0.18s, color 0.18s;
+      outline: none;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+    }
+    .lang-btn:hover {
+      background: #f5faff;
+      color: #2997ff;
+      border-color: #b3d6f7;
+      box-shadow: 0 6px 24px #0071e340;
+    }
+    .lang-btn .globe {
+      font-size: 1.18em;
+      margin-right: 2px;
+    }
     .container {
       max-width: 1000px;
       margin: 0 auto;
       padding: 0 24px 60px 24px;
     }
-    .category-grid {
+    .view-toggle-bar {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 12px;
+      margin-top: 10px;
+    }
+    .view-toggle-btn {
+      background: #fff;
+      border: 1.5px solid #e5eaf2;
+      border-radius: 18px;
+      padding: 6px 18px;
+      font-size: 1em;
+      color: #0071e3;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.16s, color 0.16s, border 0.16s;
+      outline: none;
+    }
+    .view-toggle-btn.active, .view-toggle-btn:hover {
+      background: #f5faff;
+      color: #2997ff;
+      border-color: #b3d6f7;
+    }
+    .category-grid.grid-view {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
       gap: 48px;
       margin-top: 60px;
+    }
+    .category-grid.list-view {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      margin-top: 40px;
+    }
+    .category-card.list {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding: 28px 32px;
+      min-height: 0;
+      border-radius: 18px;
+      font-size: 1.08em;
+      box-shadow: 0 2px 8px 0 #0071e310;
+    }
+    .category-card.list .cat-desc {
+      flex: 1;
+      text-align: left;
+      margin: 0 24px;
+      min-width: 120px;
+      font-size: 0.98em;
+    }
+    .category-card.list span {
+      margin-top: 0;
+      font-size: 0.95em;
     }
     .category-card {
       background: rgba(255,255,255,0.98);
@@ -112,12 +195,22 @@
       margin-top: 12px;
       letter-spacing: 0.2px;
     }
+    .cat-desc {
+      color: #b0b3b8;
+      font-size: 0.98em;
+      font-weight: 400;
+      margin: 14px 0 0 0;
+      min-height: 2em;
+      line-height: 1.5;
+      letter-spacing: 0.1px;
+    }
     @media (max-width: 700px) {
       .header { flex-direction: column; gap: 10px; padding: 32px 6px 20px 6px;}
       .header-title h1 { font-size: 1.5em; }
       .container { padding: 0 4px 20px 4px; }
       .category-grid { gap: 18px; }
       .category-card { padding: 32px 8px; font-size: 1.1em; }
+      .lang-btn { right: 12px; top: 12px; padding: 6px 16px; font-size: 0.95em;}
     }
   </style>
 </head>
@@ -125,30 +218,83 @@
   <div class="header">
     <img src="kennan.jpg" alt="logo" class="logo">
     <div class="header-title">
-      <h1>恺南的AI工具箱</h1>
-      <p>极简 · 高级 · 灵感源自 Apple 官网</p>
+      <h1 id="mainTitle"></h1>
+      <p id="mainDesc"></p>
     </div>
+    <button class="lang-btn" id="lang-toggle"></button>
   </div>
   <div class="container">
-    <div class="category-grid" id="categoryGrid"></div>
+    <div class="view-toggle-bar">
+      <button class="view-toggle-btn" id="gridViewBtn"></button>
+      <button class="view-toggle-btn" id="listViewBtn"></button>
+    </div>
+    <div class="category-grid grid-view" id="categoryGrid"></div>
   </div>
   <script>
-    fetch('ai_tools.json')
-      .then(response => response.json())
-      .then(data => {
-        // 分类分组
-        const groups = {};
-        data.forEach(item => {
-          if (!groups[item.category]) groups[item.category] = [];
-          groups[item.category].push(item);
+    // 语言切换
+    let lang = localStorage.getItem('lang') || 'zh';
+    function setLangBtn() {
+      document.getElementById('lang-toggle').innerHTML = `<span class="globe">🌐</span>${lang === 'zh' ? 'EN' : '中文'}`;
+    }
+    setLangBtn();
+    document.getElementById('lang-toggle').onclick = function() {
+      lang = lang === 'zh' ? 'en' : 'zh';
+      localStorage.setItem('lang', lang);
+      location.reload();
+    };
+
+    // 标题和副标题
+    document.getElementById('mainTitle').textContent = lang === 'zh' ? '恺南的AI工具箱' : "Kennan's AI Toolbox";
+    document.getElementById('mainDesc').textContent = lang === 'zh'
+      ? '极简 · 高级 · 灵感源自 Apple 官网'
+      : 'Minimalist · Elegant · Inspired by Apple.com';
+
+    // 视图切换
+    let viewMode = localStorage.getItem('viewMode') || 'grid';
+    function setViewMode(mode) {
+      viewMode = mode;
+      localStorage.setItem('viewMode', mode);
+      document.getElementById('categoryGrid').className = 'category-grid ' + (mode === 'list' ? 'list-view' : 'grid-view');
+      document.getElementById('gridViewBtn').classList.toggle('active', mode === 'grid');
+      document.getElementById('listViewBtn').classList.toggle('active', mode === 'list');
+      setViewToggleText();
+      renderCategories();
+    }
+    function setViewToggleText() {
+      document.getElementById('gridViewBtn').textContent = lang === 'zh' ? '九宫格' : 'Grid';
+      document.getElementById('listViewBtn').textContent = lang === 'zh' ? '列表' : 'List';
+    }
+    setViewToggleText();
+    document.getElementById('gridViewBtn').onclick = () => setViewMode('grid');
+    document.getElementById('listViewBtn').onclick = () => setViewMode('list');
+
+    // 渲染分类
+    function renderCategories() {
+      fetch('ai_tools.json')
+        .then(response => response.json())
+        .then(data => {
+          let html = '';
+          data.forEach(group => {
+            const groupName = lang === 'zh' ? group.group_zh : group.group_en;
+            const groupDesc = lang === 'zh' ? group.desc_zh : group.desc_en;
+            html += viewMode === 'list' ? `
+              <div class="category-card list" onclick="window.location.href='category.html?cat='+encodeURIComponent('${groupName}')">
+                <div style="font-weight:600;color:#0071e3;min-width:120px;">${groupName}</div>
+                <div class="cat-desc">${groupDesc}</div>
+                <span>${lang === 'zh' ? '共' : 'Total '}${group.tools.length}${lang === 'zh' ? '款工具' : ' tools'}</span>
+              </div>
+            ` : `
+              <div class="category-card" onclick="window.location.href='category.html?cat='+encodeURIComponent('${groupName}')">
+                ${groupName}
+                <div class="cat-desc">${groupDesc}</div>
+                <span>${lang === 'zh' ? '共' : 'Total '}${group.tools.length}${lang === 'zh' ? '款工具' : ' tools'}</span>
+              </div>
+            `;
+          });
+          document.getElementById('categoryGrid').innerHTML = html;
         });
-        // 渲染分类卡片
-        let html = '';
-        for (const cat of Object.keys(groups)) {
-          html += `<div class="category-card" onclick="window.location.href='category.html?cat='+encodeURIComponent('${cat}')">${cat}<span>共${groups[cat].length}款工具</span></div>`;
-        }
-        document.getElementById('categoryGrid').innerHTML = html;
-      });
+    }
+    setViewMode(viewMode);
   </script>
 </body>
 </html>

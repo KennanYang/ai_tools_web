@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
   <meta charset="UTF-8">
   <title>恺南的AI工具箱 - 分类</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@400;600&display=swap');
+
     body {
       margin: 0;
       padding: 0;
@@ -14,6 +16,7 @@
       color: #1d1d1f;
       min-height: 100vh;
     }
+
     .header {
       display: flex;
       align-items: center;
@@ -21,7 +24,9 @@
       gap: 18px;
       padding: 40px 20px 20px 20px;
       text-align: center;
+      position: relative;
     }
+
     .logo {
       width: 40px;
       height: 40px;
@@ -31,11 +36,13 @@
       border: 2.5px solid #fff;
       background: #fff;
     }
+
     .header-title {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
     }
+
     .header-title h1 {
       font-size: 1.7em;
       font-weight: 700;
@@ -46,12 +53,14 @@
       -webkit-text-fill-color: transparent;
       background-clip: text;
     }
+
     .header-title p {
       color: #86868b;
       font-size: 1em;
       margin: 0;
       letter-spacing: 0.5px;
     }
+
     .back-link {
       display: inline-block;
       margin: 18px 0 0 0;
@@ -65,29 +74,48 @@
       position: absolute;
       left: 24px;
       top: 24px;
+      z-index: 9999;
     }
+
     .back-link:hover {
       background: #d0eaff;
       text-decoration: underline;
     }
+
     .container {
       max-width: 1100px;
       margin: 0 auto;
       padding: 0 20px 40px 20px;
     }
-    .tag-filter-bar {
-      margin: 24px 0 32px 0;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      align-items: center;
+
+    .search-bar {
+      margin: 24px 0 16px 0;
+      text-align: center;
     }
+
+    #search-input {
+      width: 320px;
+      max-width: 90vw;
+      padding: 10px 16px;
+      border: 1px solid #ddd;
+      border-radius: 24px;
+      font-size: 16px;
+      outline: none;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+      transition: border 0.2s;
+    }
+
+    #search-input:focus {
+      border: 1.5px solid #0071e3;
+    }
+
     .filter-label {
       color: #86868b;
       font-size: 1.05em;
       margin-right: 8px;
       font-weight: 500;
     }
+
     .filter-tag {
       display: inline-block;
       background: linear-gradient(90deg, #eaf6ff 60%, #f5f6fa 100%);
@@ -104,23 +132,26 @@
       margin-bottom: 4px;
       user-select: none;
     }
+
     .filter-tag.selected {
       background: linear-gradient(90deg, #0071e3 60%, #2997ff 100%);
       color: #fff;
       border: 2px solid #2997ff;
     }
+
     .tools-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
       gap: 40px;
       margin-top: 10px;
     }
+
     .tool-card {
-      background: rgba(255,255,255,0.98);
+      background: rgba(255, 255, 255, 0.98);
       border-radius: 24px;
       box-shadow: 0 8px 32px 0 #0071e320, 0 2px 8px 0 #0001;
       padding: 38px 32px 28px 32px;
-      transition: transform 0.22s cubic-bezier(.4,0,.2,1), box-shadow 0.22s;
+      transition: transform 0.22s cubic-bezier(.4, 0, .2, 1), box-shadow 0.22s;
       display: flex;
       flex-direction: column;
       min-height: 240px;
@@ -128,11 +159,13 @@
       overflow: hidden;
       border: 1.5px solid #e5eaf2;
     }
+
     .tool-card:hover {
       transform: translateY(-10px) scale(1.035);
       box-shadow: 0 16px 48px 0 #0071e340, 0 4px 16px 0 #0002;
       border-color: #b3d6f7;
     }
+
     .tool-name {
       font-size: 1.35em;
       font-weight: 600;
@@ -141,6 +174,7 @@
       letter-spacing: 0.5px;
       text-shadow: 0 1px 0 #fff8;
     }
+
     .tool-desc {
       color: #444;
       font-size: 1.08em;
@@ -148,9 +182,11 @@
       flex: 1;
       line-height: 1.7;
     }
+
     .tool-tags {
       margin-bottom: 16px;
     }
+
     .tool-tag {
       display: inline-block;
       background: linear-gradient(90deg, #eaf6ff 60%, #f5f6fa 100%);
@@ -165,6 +201,7 @@
       box-shadow: 0 1px 4px #0071e310;
       transition: background 0.2s;
     }
+
     .tool-link a {
       color: #fff;
       background: linear-gradient(90deg, #0071e3 60%, #2997ff 100%);
@@ -178,75 +215,254 @@
       display: inline-block;
       letter-spacing: 0.5px;
     }
+
     .tool-link a:hover {
       background: linear-gradient(90deg, #2997ff 60%, #0071e3 100%);
       box-shadow: 0 6px 24px #0071e340;
     }
+
     @media (max-width: 900px) {
-      .header-title h1 { font-size: 1.1em; }
-      .container { padding: 0 4px 20px 4px; }
-      .tools-grid { gap: 18px; }
-      .tool-card { padding: 20px 10px 14px 10px; }
+      .header-title h1 {
+        font-size: 1.1em;
+      }
+
+      .container {
+        padding: 0 4px 20px 4px;
+      }
+
+      .tools-grid {
+        gap: 18px;
+      }
+
+      .tool-card {
+        padding: 20px 10px 14px 10px;
+      }
     }
+
     @media (max-width: 600px) {
-      .header { flex-direction: column; gap: 10px; padding: 18px 6px 10px 6px;}
-      .container { padding: 0 2px 10px 2px; }
-      .tools-grid { margin-top: 8px; }
-      .back-link { position: static; margin: 10px 0 0 0; }
+      .header {
+        flex-direction: column;
+        gap: 10px;
+        padding: 18px 6px 10px 6px;
+      }
+
+      .container {
+        padding: 0 2px 10px 2px;
+      }
+
+      .tools-grid {
+        margin-top: 8px;
+      }
+
+      .back-link {
+        position: static;
+        margin: 10px 0 0 0;
+      }
+    }
+
+    .lang-btn {
+      position: absolute;
+      right: 32px;
+      top: 24px;
+      padding: 8px 22px 8px 18px;
+      border-radius: 24px;
+      border: 1.5px solid #e5eaf2;
+      background: #fff;
+      color: #0071e3;
+      font-size: 1.08em;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 2px 12px #0071e320;
+      transition: background 0.18s, box-shadow 0.18s, border 0.18s, color 0.18s;
+      outline: none;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+    }
+    .lang-btn:hover {
+      background: #f5faff;
+      color: #2997ff;
+      border-color: #b3d6f7;
+      box-shadow: 0 6px 24px #0071e340;
+    }
+    .lang-btn .globe {
+      font-size: 1.18em;
+      margin-right: 2px;
+    }
+
+    .cat-desc {
+      color: #b0b3b8;
+      font-size: 0.98em;
+      font-weight: 400;
+      margin: 10px 0 0 0;
+      min-height: 2em;
+      line-height: 1.5;
+      letter-spacing: 0.1px;
+    }
+
+    .view-toggle-bar {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 12px;
+      margin-top: 10px;
+    }
+    .view-toggle-btn {
+      background: #fff;
+      border: 1.5px solid #e5eaf2;
+      border-radius: 18px;
+      padding: 6px 18px;
+      font-size: 1em;
+      color: #0071e3;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.16s, color 0.16s, border 0.16s;
+      outline: none;
+    }
+    .view-toggle-btn.active, .view-toggle-btn:hover {
+      background: #f5faff;
+      color: #2997ff;
+      border-color: #b3d6f7;
+    }
+    .tools-grid.grid-view {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 40px;
+      margin-top: 10px;
+    }
+    .tools-grid.list-view {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      margin-top: 10px;
+    }
+    .tool-card.list {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding: 18px 32px;
+      min-height: 0;
+      border-radius: 18px;
+      font-size: 1.08em;
+      box-shadow: 0 2px 8px 0 #0071e310;
+    }
+    .tool-card.list .tool-desc {
+      flex: 1;
+      text-align: left;
+      margin: 0 24px;
+      min-width: 120px;
+      font-size: 0.98em;
+    }
+    .tool-card.list .tool-tags {
+      display: none;
+    }
+    .tool-card.list span {
+      margin-top: 0;
+      font-size: 0.95em;
     }
   </style>
 </head>
+
 <body>
-  <a class="back-link" href="index.html">← 返回首页</a>
+  <a class="back-link" id="backHome" href="index.html"></a>
   <div class="header">
     <img src="kennan.jpg" alt="logo" class="logo">
     <div class="header-title">
       <h1 id="catTitle">AI工具分类</h1>
       <p id="catDesc"></p>
+      <div id="catGroupDesc" class="cat-desc"></div>
     </div>
+    <button class="lang-btn" id="lang-toggle"></button>
   </div>
   <div class="container">
+    <div class="view-toggle-bar">
+      <button class="view-toggle-btn" id="gridViewBtn"></button>
+      <button class="view-toggle-btn" id="listViewBtn"></button>
+    </div>
+    <div class="search-bar">
+      <input type="text" id="search-input" placeholder="搜索工具 / Search tools..." />
+    </div>
     <div class="tag-filter-bar" id="tagFilterBar"></div>
-    <div class="tools-grid" id="toolsGrid"></div>
+    <div class="tools-grid grid-view" id="toolsGrid"></div>
   </div>
   <script>
     // 获取URL参数
     function getQueryVariable(variable) {
       var query = window.location.search.substring(1);
       var vars = query.split("&");
-      for (var i=0;i<vars.length;i++) {
+      for (var i = 0; i < vars.length; i++) {
         var pair = vars[i].split("=");
-        if(pair[0] == variable){return decodeURIComponent(pair[1]);}
+        if (pair[0] == variable) { return decodeURIComponent(pair[1]); }
       }
-      return(false);
+      return (false);
     }
+    // 语言切换（假设和首页一致，localStorage存储）
+    let lang = localStorage.getItem('lang') || 'zh';
+    function setLangBtn() {
+      document.getElementById('lang-toggle').innerHTML = `<span class="globe">🌐</span>${lang === 'zh' ? 'EN' : '中文'}`;
+    }
+    setLangBtn();
+    document.getElementById('lang-toggle').onclick = function () {
+      lang = lang === 'zh' ? 'en' : 'zh';
+      localStorage.setItem('lang', lang);
+      location.reload();
+    };
+    // 分类标题
     const cat = getQueryVariable('cat');
-    document.getElementById('catTitle').innerText = cat ? cat : 'AI工具分类';
+    document.getElementById('catTitle').innerText = cat ? cat : (lang === 'zh' ? 'AI工具分类' : 'AI Tool Categories');
+    document.getElementById('catDesc').innerText = lang === 'zh' ? '多标签筛选、关键词搜索、支持中英文切换' : 'Multi-tag filter, keyword search, bilingual support';
 
     let allTools = [];
     let selectedTags = [];
+    let searchKeyword = '';
+    let viewMode = localStorage.getItem('catViewMode') || 'grid';
 
     function renderTools() {
       let tools = allTools;
+      // 标签筛选
       if (selectedTags.length > 0) {
         tools = tools.filter(tool =>
-          selectedTags.every(tag => tool.tags.includes(tag))
+          selectedTags.every(tag => (lang === 'zh' ? tool.tags_zh : tool.tags_en).includes(tag))
         );
+      }
+      // 关键词搜索
+      if (searchKeyword) {
+        const nameKey = lang === 'zh' ? 'name_zh' : 'name_en';
+        const descKey = lang === 'zh' ? 'desc_zh' : 'desc_en';
+        const tagsKey = lang === 'zh' ? 'tags_zh' : 'tags_en';
+        const kw = searchKeyword.toLowerCase();
+        tools = tools.filter(tool => {
+          const name = (tool[nameKey] || '').toLowerCase();
+          const desc = (tool[descKey] || '').toLowerCase();
+          const tags = (tool[tagsKey] || []).join(' ').toLowerCase();
+          return name.includes(kw) || desc.includes(kw) || tags.includes(kw);
+        });
       }
       let html = '';
       if (tools.length === 0) {
-        html = '<div style="color:#888;font-size:1.2em;text-align:center;margin-top:40px;">暂无符合条件的工具</div>';
+        html = `<div style="color:#888;font-size:1.2em;text-align:center;margin-top:40px;">${lang === 'zh' ? '暂无符合条件的工具' : 'No tools found.'}</div>`;
       } else {
         tools.forEach(tool => {
-          html += `
+          const name = lang === 'zh' ? tool.name_zh : tool.name_en;
+          const desc = lang === 'zh' ? tool.desc_zh : tool.desc_en;
+          const tags = lang === 'zh' ? tool.tags_zh : tool.tags_en;
+          html += viewMode === 'list' ? `
+            <div class="tool-card list">
+              <div style="font-weight:600;color:#0071e3;min-width:120px;">${name}</div>
+              <div class="tool-desc">${desc}</div>
+              <span>${tool.url ? `<a href="${tool.url}" target="_blank" rel="noopener" style="color:#2997ff;text-decoration:underline;">${lang === 'zh' ? '访问' : 'Visit'}</a>` : ''}</span>
+            </div>
+          ` : `
             <div class="tool-card">
-              <div class="tool-name">${tool.name}</div>
-              <div class="tool-desc">${tool.desc}</div>
+              <div class="tool-name">${name}</div>
+              <div class="tool-desc">${desc}</div>
               <div class="tool-tags">
-                ${tool.tags.map(t => `<span class="tool-tag">#${t}</span>`).join(' ')}
+                ${tags.map(t => `<span class="tool-tag">#${t}</span>`).join(' ')}
               </div>
               <div class="tool-link">
-                <a href="${tool.url}" target="_blank" rel="noopener">访问工具</a>
+                <a href="${tool.url}" target="_blank" rel="noopener">${lang === 'zh' ? '访问工具' : 'Visit Tool'}</a>
               </div>
             </div>
           `;
@@ -255,8 +471,8 @@
       document.getElementById('toolsGrid').innerHTML = html;
       // 工具卡片内标签点击也可筛选
       document.querySelectorAll('.tool-tag').forEach(tagEl => {
-        tagEl.onclick = function() {
-          const tag = tagEl.textContent.replace('#','');
+        tagEl.onclick = function () {
+          const tag = tagEl.textContent.replace('#', '');
           toggleTag(tag);
         }
       });
@@ -265,15 +481,15 @@
     function renderTagFilterBar() {
       // 统计所有标签
       const tagSet = new Set();
-      allTools.forEach(tool => tool.tags.forEach(tag => tagSet.add(tag)));
+      allTools.forEach(tool => (lang === 'zh' ? tool.tags_zh : tool.tags_en).forEach(tag => tagSet.add(tag)));
       const tags = Array.from(tagSet).sort();
-      let html = '<span class="filter-label">标签筛选：</span>';
+      let html = `<span class="filter-label">${lang === 'zh' ? '标签筛选：' : 'Filter by tags:'}</span>`;
       tags.forEach(tag => {
-        html += `<span class="filter-tag${selectedTags.includes(tag)?' selected':''}" data-tag="${tag}">#${tag}</span>`;
+        html += `<span class="filter-tag${selectedTags.includes(tag) ? ' selected' : ''}" data-tag="${tag}">#${tag}</span>`;
       });
       document.getElementById('tagFilterBar').innerHTML = html;
       document.querySelectorAll('.filter-tag').forEach(tagEl => {
-        tagEl.onclick = function() {
+        tagEl.onclick = function () {
           const tag = tagEl.getAttribute('data-tag');
           toggleTag(tag);
         }
@@ -290,13 +506,62 @@
       renderTools();
     }
 
+    // 搜索框监听
+    document.addEventListener('DOMContentLoaded', function () {
+      const searchInput = document.getElementById('search-input');
+      searchInput.placeholder = lang === 'zh' ? '搜索工具、简介或标签...' : 'Search tools, description or tags...';
+      searchInput.addEventListener('input', function () {
+        searchKeyword = this.value.trim();
+        renderTools();
+      });
+    });
+
+    // 视图切换
+    function setViewMode(mode) {
+      viewMode = mode;
+      localStorage.setItem('catViewMode', mode);
+      document.getElementById('toolsGrid').className = 'tools-grid ' + (mode === 'list' ? 'list-view' : 'grid-view');
+      document.getElementById('gridViewBtn').classList.toggle('active', mode === 'grid');
+      document.getElementById('listViewBtn').classList.toggle('active', mode === 'list');
+      setViewToggleText();
+      renderTools();
+    }
+    function setViewToggleText() {
+      document.getElementById('gridViewBtn').textContent = lang === 'zh' ? '九宫格' : 'Grid';
+      document.getElementById('listViewBtn').textContent = lang === 'zh' ? '列表' : 'List';
+    }
+    setViewToggleText();
+    document.getElementById('gridViewBtn').onclick = () => setViewMode('grid');
+    document.getElementById('listViewBtn').onclick = () => setViewMode('list');
+
+    // 加载数据
     fetch('ai_tools.json')
       .then(response => response.json())
       .then(data => {
-        allTools = data.filter(item => item.category === cat);
+        // cat参数为中文或英文分组名
+        let group = data.find(g => (lang === 'zh' ? g.group_zh : g.group_en) === cat);
+        // 兼容：如果cat参数是另一语言的分组名，自动跳转到当前语言的分组
+        if (!group) {
+          // 尝试用另一语言查找
+          let altGroup = data.find(g => (lang === 'zh' ? g.group_en : g.group_zh) === cat);
+          if (altGroup) {
+            // 自动跳转到当前语言的分组cat参数
+            const newCat = lang === 'zh' ? altGroup.group_zh : altGroup.group_en;
+            window.location.search = '?cat=' + encodeURIComponent(newCat);
+            return;
+          }
+        }
+        // 兜底：如果还找不到，默认第一个分组
+        if (!group) group = data[0];
+        // 渲染分组描述
+        document.getElementById('catGroupDesc').textContent = group ? (lang === 'zh' ? group.desc_zh : group.desc_en) : '';
+        allTools = group ? group.tools : [];
         renderTagFilterBar();
         renderTools();
       });
+
+    setViewMode(viewMode);
   </script>
 </body>
+
 </html>
