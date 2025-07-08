@@ -4,8 +4,9 @@ import random
 import requests
 import time
 
-appid = '20220402001154914'
-secretKey = 'b64ch6Nh0dHWJbCqCFwB'
+# baidu translate api
+appid = 'xx'
+secretKey = 'xx'
 
 def baidu_translate_batch(queries, from_lang='zh', to_lang='en'):
     q = '\n'.join(queries)
