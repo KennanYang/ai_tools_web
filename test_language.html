@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Language Test</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    .test-item { margin: 10px 0; padding: 10px; border: 1px solid #ddd; }
+    .current-lang { background: #e8f5e8; }
+  </style>
+</head>
+<body>
+  <h1>Language Switch Test</h1>
+  
+  <div class="test-item current-lang">
+    <strong>Current Language:</strong> <span id="currentLang"></span>
+  </div>
+  
+  <div class="test-item">
+    <strong>Default Language:</strong> <span id="defaultLang"></span>
+  </div>
+  
+  <div class="test-item">
+    <strong>Language Button Text:</strong> <span id="langBtnText"></span>
+  </div>
+  
+  <div class="test-item">
+    <strong>Main Title:</strong> <span id="mainTitle"></span>
+  </div>
+  
+  <div class="test-item">
+    <strong>Main Description:</strong> <span id="mainDesc"></span>
+  </div>
+  
+  <button onclick="toggleLanguage()">Toggle Language</button>
+  <button onclick="clearStorage()">Clear Storage</button>
+  
+  <script>
+    // 模拟index.html的语言逻辑
+    let lang = localStorage.getItem('lang') || 'en';
+    
+    function updateDisplay() {
+      document.getElementById('currentLang').textContent = lang;
+      document.getElementById('defaultLang').textContent = localStorage.getItem('lang') || 'en (default)';
+      document.getElementById('langBtnText').textContent = lang === 'en' ? '中文' : 'EN';
+      document.getElementById('mainTitle').textContent = lang === 'en' ? "Kennan's AI Toolbox" : '恺南的AI工具箱';
+      document.getElementById('mainDesc').textContent = lang === 'en' 
+        ? 'Free AI Tools Directory - Discover, Explore, and Use the Best AI Tools'
+        : '免费AI工具导航网站 - 发现、探索、使用最佳AI工具';
+    }
+    
+    function toggleLanguage() {
+      lang = lang === 'en' ? 'zh' : 'en';
+      localStorage.setItem('lang', lang);
+      updateDisplay();
+    }
+    
+    function clearStorage() {
+      localStorage.removeItem('lang');
+      lang = 'en';
+      updateDisplay();
+    }
+    
+    updateDisplay();
+  </script>
+</body>
+</html> 

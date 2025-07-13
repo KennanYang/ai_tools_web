@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <title>恺南的AI工具箱 - 分类</title>
+  <title>Kennan's AI Toolbox - Category</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@400;600&display=swap');
@@ -300,6 +300,63 @@
       line-height: 1.5;
       letter-spacing: 0.1px;
     }
+    
+    .footer {
+      background: rgba(255,255,255,0.95);
+      border-top: 1px solid #e5eaf2;
+      padding: 40px 20px 30px 20px;
+      margin-top: 60px;
+      text-align: center;
+      backdrop-filter: blur(10px);
+    }
+    
+    .footer-content {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    .footer-section {
+      margin-bottom: 30px;
+    }
+    
+    .footer-section:last-child {
+      margin-bottom: 0;
+    }
+    
+    .footer-title {
+      font-size: 1.2em;
+      font-weight: 600;
+      color: #0071e3;
+      margin-bottom: 15px;
+      letter-spacing: 0.5px;
+    }
+    
+    .footer-text {
+      color: #86868b;
+      font-size: 1em;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+    
+    .footer-contact {
+      color: #0071e3;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    
+    .footer-contact:hover {
+      color: #2997ff;
+      text-decoration: underline;
+    }
+    
+    .footer-copyright {
+      color: #b0b3b8;
+      font-size: 0.9em;
+      margin-top: 20px;
+      padding-top: 20px;
+      border-top: 1px solid #e5eaf2;
+    }
 
     .view-toggle-bar {
       display: flex;
@@ -362,6 +419,18 @@
       margin-top: 0;
       font-size: 0.95em;
     }
+    
+    @media (max-width: 700px) {
+      .header { flex-direction: column; gap: 10px; padding: 32px 6px 20px 6px;}
+      .header-title h1 { font-size: 1.5em; }
+      .container { padding: 0 4px 20px 4px; }
+      .tools-grid { gap: 18px; }
+      .tool-card { padding: 32px 8px; font-size: 1.1em; }
+      .lang-btn { right: 12px; top: 12px; padding: 6px 16px; font-size: 0.95em;}
+      .footer { padding: 30px 15px 20px 15px; }
+      .footer-title { font-size: 1.1em; }
+      .footer-text { font-size: 0.95em; }
+    }
   </style>
 </head>
 
@@ -387,6 +456,24 @@
     <div class="tag-filter-bar" id="tagFilterBar"></div>
     <div class="tools-grid grid-view" id="toolsGrid"></div>
   </div>
+  
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <div class="footer-title" id="footerTitle"></div>
+        <div class="footer-text" id="footerDesc"></div>
+      </div>
+      
+      <div class="footer-section">
+        <div class="footer-title" id="contactTitle"></div>
+        <div class="footer-text">
+          <a href="mailto:kennan1048125026@gmail.com" class="footer-contact">kennan1048125026@gmail.com</a>
+        </div>
+      </div>
+      
+      <div class="footer-copyright" id="copyrightText"></div>
+    </div>
+  </footer>
   <script>
     // 获取URL参数
     function getQueryVariable(variable) {
@@ -399,20 +486,30 @@
       return (false);
     }
     // 语言切换（假设和首页一致，localStorage存储）
-    let lang = localStorage.getItem('lang') || 'zh';
+    let lang = localStorage.getItem('lang') || 'en';
     function setLangBtn() {
-      document.getElementById('lang-toggle').innerHTML = `<span class="globe">🌐</span>${lang === 'zh' ? 'EN' : '中文'}`;
+      document.getElementById('lang-toggle').innerHTML = `<span class="globe">🌐</span>${lang === 'en' ? '中文' : 'EN'}`;
     }
     setLangBtn();
     document.getElementById('lang-toggle').onclick = function () {
-      lang = lang === 'zh' ? 'en' : 'zh';
+      lang = lang === 'en' ? 'zh' : 'en';
       localStorage.setItem('lang', lang);
       location.reload();
     };
     // 分类标题
     const cat = getQueryVariable('cat');
-    document.getElementById('catTitle').innerText = cat ? cat : (lang === 'zh' ? 'AI工具分类' : 'AI Tool Categories');
-    document.getElementById('catDesc').innerText = lang === 'zh' ? '多标签筛选、关键词搜索、支持中英文切换' : 'Multi-tag filter, keyword search, bilingual support';
+    document.getElementById('catTitle').innerText = cat ? cat : (lang === 'en' ? 'AI Tool Categories' : 'AI工具分类');
+    document.getElementById('catDesc').innerText = lang === 'en' ? 'Multi-tag filter, keyword search, bilingual support' : '多标签筛选、关键词搜索、支持中英文切换';
+    
+    // 页脚内容
+    document.getElementById('footerTitle').textContent = lang === 'en' ? 'About This Platform' : '关于本平台';
+    document.getElementById('footerDesc').textContent = lang === 'en' 
+      ? 'A comprehensive directory of AI tools curated to help you find the perfect solution for your needs. All tools are carefully selected and categorized for easy discovery.'
+      : '精心策划的AI工具目录，帮助您找到最适合的解决方案。所有工具都经过精心挑选和分类，便于发现和使用。';
+    document.getElementById('contactTitle').textContent = lang === 'en' ? 'Contact & Support' : '联系与支持';
+    document.getElementById('copyrightText').textContent = lang === 'en' 
+      ? `© ${new Date().getFullYear()} Kennan. All rights reserved. This platform is designed to help users discover and access AI tools efficiently.`
+      : `© ${new Date().getFullYear()} 恺南. 保留所有权利。本平台旨在帮助用户高效发现和访问AI工具。`;
 
     let allTools = [];
     let selectedTags = [];
@@ -424,14 +521,14 @@
       // 标签筛选
       if (selectedTags.length > 0) {
         tools = tools.filter(tool =>
-          selectedTags.every(tag => (lang === 'zh' ? tool.tags_zh : tool.tags_en).includes(tag))
+          selectedTags.every(tag => (lang === 'en' ? tool.tags_en : tool.tags_zh).includes(tag))
         );
       }
       // 关键词搜索
       if (searchKeyword) {
-        const nameKey = lang === 'zh' ? 'name_zh' : 'name_en';
-        const descKey = lang === 'zh' ? 'desc_zh' : 'desc_en';
-        const tagsKey = lang === 'zh' ? 'tags_zh' : 'tags_en';
+        const nameKey = lang === 'en' ? 'name_en' : 'name_zh';
+        const descKey = lang === 'en' ? 'desc_en' : 'desc_zh';
+        const tagsKey = lang === 'en' ? 'tags_en' : 'tags_zh';
         const kw = searchKeyword.toLowerCase();
         tools = tools.filter(tool => {
           const name = (tool[nameKey] || '').toLowerCase();
@@ -442,17 +539,17 @@
       }
       let html = '';
       if (tools.length === 0) {
-        html = `<div style="color:#888;font-size:1.2em;text-align:center;margin-top:40px;">${lang === 'zh' ? '暂无符合条件的工具' : 'No tools found.'}</div>`;
+        html = `<div style="color:#888;font-size:1.2em;text-align:center;margin-top:40px;">${lang === 'en' ? 'No tools found.' : '暂无符合条件的工具'}</div>`;
       } else {
         tools.forEach(tool => {
-          const name = lang === 'zh' ? tool.name_zh : tool.name_en;
-          const desc = lang === 'zh' ? tool.desc_zh : tool.desc_en;
-          const tags = lang === 'zh' ? tool.tags_zh : tool.tags_en;
+          const name = lang === 'en' ? tool.name_en : tool.name_zh;
+          const desc = lang === 'en' ? tool.desc_en : tool.desc_zh;
+          const tags = lang === 'en' ? tool.tags_en : tool.tags_zh;
           html += viewMode === 'list' ? `
             <div class="tool-card list">
               <div style="font-weight:600;color:#0071e3;min-width:120px;">${name}</div>
               <div class="tool-desc">${desc}</div>
-              <span>${tool.url ? `<a href="${tool.url}" target="_blank" rel="noopener" style="color:#2997ff;text-decoration:underline;">${lang === 'zh' ? '访问' : 'Visit'}</a>` : ''}</span>
+              <span>${tool.url ? `<a href="${tool.url}" target="_blank" rel="noopener" style="color:#2997ff;text-decoration:underline;">${lang === 'en' ? 'Visit' : '访问'}</a>` : ''}</span>
             </div>
           ` : `
             <div class="tool-card">
@@ -462,7 +559,7 @@
                 ${tags.map(t => `<span class="tool-tag">#${t}</span>`).join(' ')}
               </div>
               <div class="tool-link">
-                <a href="${tool.url}" target="_blank" rel="noopener">${lang === 'zh' ? '访问工具' : 'Visit Tool'}</a>
+                <a href="${tool.url}" target="_blank" rel="noopener">${lang === 'en' ? 'Visit Tool' : '访问工具'}</a>
               </div>
             </div>
           `;
@@ -481,9 +578,9 @@
     function renderTagFilterBar() {
       // 统计所有标签
       const tagSet = new Set();
-      allTools.forEach(tool => (lang === 'zh' ? tool.tags_zh : tool.tags_en).forEach(tag => tagSet.add(tag)));
+      allTools.forEach(tool => (lang === 'en' ? tool.tags_en : tool.tags_zh).forEach(tag => tagSet.add(tag)));
       const tags = Array.from(tagSet).sort();
-      let html = `<span class="filter-label">${lang === 'zh' ? '标签筛选：' : 'Filter by tags:'}</span>`;
+      let html = `<span class="filter-label">${lang === 'en' ? 'Filter by tags:' : '标签筛选：'}</span>`;
       tags.forEach(tag => {
         html += `<span class="filter-tag${selectedTags.includes(tag) ? ' selected' : ''}" data-tag="${tag}">#${tag}</span>`;
       });
@@ -509,7 +606,7 @@
     // 搜索框监听
     document.addEventListener('DOMContentLoaded', function () {
       const searchInput = document.getElementById('search-input');
-      searchInput.placeholder = lang === 'zh' ? '搜索工具、简介或标签...' : 'Search tools, description or tags...';
+      searchInput.placeholder = lang === 'en' ? 'Search tools, description or tags...' : '搜索工具、简介或标签...';
       searchInput.addEventListener('input', function () {
         searchKeyword = this.value.trim();
         renderTools();
@@ -527,8 +624,8 @@
       renderTools();
     }
     function setViewToggleText() {
-      document.getElementById('gridViewBtn').textContent = lang === 'zh' ? '九宫格' : 'Grid';
-      document.getElementById('listViewBtn').textContent = lang === 'zh' ? '列表' : 'List';
+      document.getElementById('gridViewBtn').textContent = lang === 'en' ? 'Grid' : '九宫格';
+      document.getElementById('listViewBtn').textContent = lang === 'en' ? 'List' : '列表';
     }
     setViewToggleText();
     document.getElementById('gridViewBtn').onclick = () => setViewMode('grid');
@@ -539,14 +636,14 @@
       .then(response => response.json())
       .then(data => {
         // cat参数为中文或英文分组名
-        let group = data.find(g => (lang === 'zh' ? g.group_zh : g.group_en) === cat);
+        let group = data.find(g => (lang === 'en' ? g.group_en : g.group_zh) === cat);
         // 兼容：如果cat参数是另一语言的分组名，自动跳转到当前语言的分组
         if (!group) {
           // 尝试用另一语言查找
-          let altGroup = data.find(g => (lang === 'zh' ? g.group_en : g.group_zh) === cat);
+          let altGroup = data.find(g => (lang === 'en' ? g.group_zh : g.group_en) === cat);
           if (altGroup) {
             // 自动跳转到当前语言的分组cat参数
-            const newCat = lang === 'zh' ? altGroup.group_zh : altGroup.group_en;
+            const newCat = lang === 'en' ? altGroup.group_en : altGroup.group_zh;
             window.location.search = '?cat=' + encodeURIComponent(newCat);
             return;
           }
@@ -554,7 +651,7 @@
         // 兜底：如果还找不到，默认第一个分组
         if (!group) group = data[0];
         // 渲染分组描述
-        document.getElementById('catGroupDesc').textContent = group ? (lang === 'zh' ? group.desc_zh : group.desc_en) : '';
+        document.getElementById('catGroupDesc').textContent = group ? (lang === 'en' ? group.desc_en : group.desc_zh) : '';
         allTools = group ? group.tools : [];
         renderTagFilterBar();
         renderTools();
