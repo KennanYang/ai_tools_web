@@ -1,0 +1,6 @@
+# 重定向规则
+/index.html / 301
+/category.html /category/ 301
+
+# 404页面重定向
+/* /index.html 404 
