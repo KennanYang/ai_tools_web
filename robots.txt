@@ -7,4 +7,10 @@ Sitemap: https://aitoolbox.uk/sitemap.xml
 # 禁止爬取敏感文件
 Disallow: /_headers
 Disallow: /_redirects
-Disallow: /*.json$ 
+Disallow: /*.json$
+Disallow: /googleb37c367d7146551a.html
+
+# 允许爬取主要页面
+Allow: /index.html
+Allow: /category.html
+Allow: /test_language.html 

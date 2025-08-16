@@ -2,6 +2,12 @@
 
 > Minimal · Advanced · Inspired by Apple.com / 极简 · 高级 · 灵感源自 Apple 官网
 
+## 🌐 网站信息 / Website Information
+
+- **域名 / Domain**: [https://aitoolbox.uk/](https://aitoolbox.uk/)
+- **状态 / Status**: 在线运行 / Online
+- **托管平台 / Hosting**: Cloudflare Pages
+
 ## Highlights / 项目亮点
 
 - **Keyword Search**: Real-time search in both English and Chinese. / 支持中英文关键词实时搜索。
@@ -28,7 +34,8 @@
    python -m http.server 8080
    ```
    Then open http://localhost:8080/index.html / 然后浏览器访问
-3. Or deploy to Cloudflare Pages, GitHub Pages, etc. / 也可直接部署到静态平台
+3. Deploy to Cloudflare Pages, GitHub Pages, etc. / 部署到静态平台
+4. **Production URL**: [https://aitoolbox.uk/](https://aitoolbox.uk/)
 
 ## Data Structure / 数据结构说明
 
