@@ -4,13 +4,14 @@ Allow: /
 # 允许搜索引擎爬取所有内容
 Sitemap: https://aitoolbox.uk/sitemap.xml
 
-# 禁止爬取敏感文件
+# 禁止爬取配置文件和验证文件
 Disallow: /_headers
 Disallow: /_redirects
-Disallow: /*.json$
 Disallow: /googleb37c367d7146551a.html
 
-# 允许爬取主要页面
+# 允许爬取主要页面和API文件
 Allow: /index.html
 Allow: /category.html
-Allow: /test_language.html 
+Allow: /test_language.html
+Allow: /ai_tools.json
+Allow: /ai_tools_bilingual.json 

@@ -1,6 +1,8 @@
-# 重定向规则
-/index.html / 301
-/category.html /category/ 301
+# 重定向规则 - 修复版本
+# 移除自动重定向，确保页面能被Google索引
 
-# 404页面重定向
-/* /index.html 404 
+# 如果需要将category.html重定向到category/，请确保目标页面存在
+# /category.html /category/ 301
+
+# 移除有问题的通配符重定向
+# /* /index.html 404 
