@@ -1,5 +1,6 @@
 name = "ai-tools-web"
 compatibility_date = "2024-01-01"
+main = "worker.js"
 
 [env.production]
 name = "ai-tools-web"
@@ -9,5 +10,14 @@ route = "aitoolbox.uk/*"
 name = "ai-tools-web-preview"
 
 [build]
-command = ""
-publish = "." 
+command = "echo 'Static site build completed'"
+publish = "."
+
+# 确保正确处理静态文件类型
+[site]
+bucket = "."
+entry-point = "workers-site"
+
+# 添加必要的依赖
+[build.upload]
+format = "service-worker" 
